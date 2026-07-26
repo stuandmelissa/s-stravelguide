@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="S&amp;S Travel Guide" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Moab to Bryce via Scenic Utah</name><desc>Planning waypoints and overview connection; not road-snapped navigation.</desc></metadata>
+  <wpt lat="38.5733" lon="-109.5498"><name>Moab, Utah</name><type>destination</type></wpt>
+  <wpt lat="38.5738" lon="-110.7072"><name>Goblin Valley State Park</name><type>viewpoint</type></wpt>
+  <wpt lat="38.2916" lon="-111.2615"><name>Capitol Reef Visitor Center</name><type>visitor_center</type></wpt>
+  <wpt lat="37.9221" lon="-111.423"><name>Boulder, Utah</name><type>destination</type></wpt>
+  <wpt lat="37.7451" lon="-111.4493"><name>Head of the Rocks Overlook</name><type>viewpoint</type></wpt>
+  <wpt lat="37.6283" lon="-112.1666"><name>Sunset Point, Bryce Canyon</name><type>viewpoint</type></wpt>
+  <wpt lat="37.6733" lon="-112.1587"><name>Bryce Canyon City</name><type>destination</type></wpt>
+  <trk><name>Moab to Bryce via Scenic Utah</name><trkseg>
+      <trkpt lat="38.5733" lon="-109.5498"><name>Moab, Utah</name></trkpt>
+      <trkpt lat="38.5738" lon="-110.7072"><name>Goblin Valley State Park</name></trkpt>
+      <trkpt lat="38.2916" lon="-111.2615"><name>Capitol Reef Visitor Center</name></trkpt>
+      <trkpt lat="37.9221" lon="-111.423"><name>Boulder, Utah</name></trkpt>
+      <trkpt lat="37.7451" lon="-111.4493"><name>Head of the Rocks Overlook</name></trkpt>
+      <trkpt lat="37.6283" lon="-112.1666"><name>Sunset Point, Bryce Canyon</name></trkpt>
+      <trkpt lat="37.6733" lon="-112.1587"><name>Bryce Canyon City</name></trkpt>
+  </trkseg></trk>
+</gpx>

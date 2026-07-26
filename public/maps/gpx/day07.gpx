@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="S&amp;S Travel Guide" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Grand Teton to Jackson</name><desc>Planning waypoints and overview connection; not road-snapped navigation.</desc></metadata>
+  <wpt lat="43.4927" lon="-112.0408"><name>Idaho Falls, Idaho</name><type>destination</type></wpt>
+  <wpt lat="43.865" lon="-110.547"><name>Oxbow Bend</name><type>viewpoint</type></wpt>
+  <wpt lat="43.8435" lon="-110.6127"><name>Signal Mountain Summit</name><type>viewpoint</type></wpt>
+  <wpt lat="43.752" lon="-110.722"><name>Jenny Lake Visitor Area</name><type>visitor_center</type></wpt>
+  <wpt lat="43.6608" lon="-110.6647"><name>Mormon Row Historic District</name><type>viewpoint</type></wpt>
+  <wpt lat="43.4799" lon="-110.7624"><name>Jackson, Wyoming</name><type>destination</type></wpt>
+  <trk><name>Grand Teton to Jackson</name><trkseg>
+      <trkpt lat="43.4927" lon="-112.0408"><name>Idaho Falls, Idaho</name></trkpt>
+      <trkpt lat="43.865" lon="-110.547"><name>Oxbow Bend</name></trkpt>
+      <trkpt lat="43.8435" lon="-110.6127"><name>Signal Mountain Summit</name></trkpt>
+      <trkpt lat="43.752" lon="-110.722"><name>Jenny Lake Visitor Area</name></trkpt>
+      <trkpt lat="43.6608" lon="-110.6647"><name>Mormon Row Historic District</name></trkpt>
+      <trkpt lat="43.4799" lon="-110.7624"><name>Jackson, Wyoming</name></trkpt>
+  </trkseg></trk>
+</gpx>
