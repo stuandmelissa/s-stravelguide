@@ -6,7 +6,10 @@
  * - Hashed build assets are cached first-time-seen, then served cache-first.
  * - Everything else same-origin uses stale-while-revalidate.
  */
-const CACHE_NAME = "sstg-v1";
+const CACHE_NAME = "sstg-v3";
+
+// Free, keyless vector-tile host used by the trip map (see /map).
+const TILE_ORIGIN = "https://tiles.openfreemap.org";
 
 const PRECACHE_ROUTES = [
   "/",
@@ -17,6 +20,8 @@ const PRECACHE_ROUTES = [
   "/memories",
   "/more",
   "/manifest.webmanifest",
+  "/maplibre-gl-worker.mjs",
+  "/maplibre-gl-shared.mjs",
 ];
 
 self.addEventListener("install", (event) => {
@@ -82,6 +87,19 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET") return;
 
   const url = new URL(request.url);
+
+  // Base-map assets: tiles/glyphs/sprites are effectively immutable, style
+  // JSON may evolve. Cached tiles keep previously-viewed areas usable
+  // offline; they never claim to reflect current road status.
+  if (url.origin === TILE_ORIGIN) {
+    if (url.pathname.startsWith("/styles/")) {
+      event.respondWith(staleWhileRevalidate(request));
+    } else {
+      event.respondWith(cacheFirst(request));
+    }
+    return;
+  }
+
   if (url.origin !== self.location.origin) return;
 
   if (request.mode === "navigate") {
