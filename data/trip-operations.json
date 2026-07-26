@@ -16,6 +16,7 @@
       "status": "booked",
       "breakfast": "Free hot breakfast",
       "parking": "Free",
+      "confirmationNumber": "53741663",
       "notes": "Base for RMNP the next morning"
     },
     {
@@ -25,7 +26,8 @@
       "status": "booked",
       "breakfast": "Hilton Gold food & beverage credit",
       "parking": "$15/day",
-      "notes": "Excellent downtown Moab location"
+      "confirmationNumber": "3505762211",
+      "notes": "Excellent downtown Moab location. Booked as two separate one-night stays."
     },
     {
       "date": "2026-07-29",
@@ -34,7 +36,8 @@
       "status": "booked",
       "breakfast": "Hilton Gold food & beverage credit",
       "parking": "$15/day",
-      "notes": "Full Arches day"
+      "confirmationNumber": "3505385821",
+      "notes": "Full Arches day. Separate booking from the first Moab night."
     },
     {
       "date": "2026-07-30",
