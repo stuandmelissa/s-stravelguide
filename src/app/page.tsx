@@ -59,7 +59,7 @@ export default function HomePage() {
           </p>
           <Button
             size="lg"
-            className="w-full bg-cream font-semibold text-charcoal hover:bg-cream/90 dark:bg-primary-foreground dark:text-charcoal"
+            className="w-full bg-cream font-semibold text-charcoal hover:bg-cream/90 dark:bg-charcoal dark:text-cream dark:hover:bg-charcoal/90"
             render={<Link href="/today" />}
           >
             Open today&apos;s plan
