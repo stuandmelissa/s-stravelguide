@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "tripId": "ss-west-2026",
+  "startDate": "2026-07-27",
+  "endDate": "2026-08-06",
+  "days": [
+    {
+      "id": "day01",
+      "date": "2026-07-27",
+      "title": "Marion to Fort Collins",
+      "summary": "Long drive west. Reach Fort Collins and relax—tomorrow starts before sunrise.",
+      "heroMoment": null,
+      "parkIds": [],
+      "driveSummary": "Marion, IA to Fort Collins, CO. Longest drive of the trip.",
+      "eveningNote": "Fuel up, pack the car for a pre-dawn start, and get to bed early."
+    },
+    {
+      "id": "day02",
+      "date": "2026-07-28",
+      "title": "RMNP Traverse to Grand Lake",
+      "summary": "Enter Rocky Mountain National Park before the timed-entry window. Bear Lake first, then cross Trail Ridge Road and scan Kawuneeche Valley for moose before the drive to Moab.",
+      "heroMoment": "Bear Lake sunrise and the Trail Ridge Road crossing",
+      "parkIds": ["rmnp"],
+      "driveSummary": "Fort Collins to Estes Park, across Trail Ridge Road, then south to Moab.",
+      "eveningNote": "Check in at Hoodoo Moab for two nights. Hydrate—tomorrow is a hot one."
+    },
+    {
+      "id": "day03",
+      "date": "2026-07-29",
+      "title": "Arches National Park",
+      "summary": "Beat the heat: Park Avenue, Balanced Rock, the Windows, Double Arch, and Delicate Arch viewpoints before afternoon temperatures peak.",
+      "heroMoment": "Delicate Arch and the Windows cluster",
+      "parkIds": ["arches"],
+      "driveSummary": "Short loop from Moab into Arches and back.",
+      "eveningNote": "Second night at Hoodoo Moab. Relax by the pool."
+    },
+    {
+      "id": "day04",
+      "date": "2026-07-30",
+      "title": "Moab to Bryce via Scenic Utah",
+      "summary": "One of America's great scenic drives: Goblin Valley, Capitol Reef, and Scenic Byway 12 to Bryce Canyon for the afternoon and sunset.",
+      "heroMoment": "Bryce Amphitheater at sunset",
+      "parkIds": ["bryce"],
+      "driveSummary": "Moab to Bryce Canyon City via Capitol Reef and Scenic Byway 12.",
+      "eveningNote": "Overnight in Bryce Canyon City. Sunrise comes early tomorrow."
+    },
+    {
+      "id": "day05",
+      "date": "2026-07-31",
+      "title": "Bryce Sunrise to Zion",
+      "summary": "Bryce Amphitheater at first light, then descend to Zion Canyon for the afternoon. Overnight in Springdale at the park's doorstep.",
+      "heroMoment": "Bryce Canyon sunrise over the hoodoos",
+      "parkIds": ["bryce", "zion"],
+      "driveSummary": "Bryce to Springdale via the Zion-Mount Carmel Highway.",
+      "eveningNote": "Overnight in Springdale. Check shuttle times for the morning."
+    },
+    {
+      "id": "day06",
+      "date": "2026-08-01",
+      "title": "Zion to Idaho Falls",
+      "summary": "A last Zion morning if energy allows, then a big repositioning drive north with a Cedar Breaks stop.",
+      "heroMoment": null,
+      "parkIds": ["zion"],
+      "driveSummary": "Springdale to Idaho Falls via Cedar Breaks National Monument.",
+      "eveningNote": "Overnight in Idaho Falls. Stage for the Tetons."
+    },
+    {
+      "id": "day07",
+      "date": "2026-08-02",
+      "title": "Grand Teton to Jackson",
+      "summary": "North-to-south Teton day: Oxbow Bend, Signal Mountain, Jenny Lake, Cathedral Group, and Mormon Row if the light holds.",
+      "heroMoment": "Oxbow Bend reflections and Mormon Row barns",
+      "parkIds": ["grand-teton"],
+      "driveSummary": "Idaho Falls over Teton Pass, north through the park, then into Jackson.",
+      "eveningNote": "First of two nights in Jackson (booked)."
+    },
+    {
+      "id": "day08",
+      "date": "2026-08-03",
+      "title": "Jackson Adventure Day",
+      "summary": "Whitewater rafting on the Snake River and a relaxed evening in Jackson. No driving day.",
+      "heroMoment": "Snake River whitewater rafting",
+      "parkIds": [],
+      "driveSummary": "No repositioning. Local Jackson only.",
+      "eveningNote": "Second night in Jackson (booked). Prep for the biggest day of the trip."
+    },
+    {
+      "id": "day09",
+      "date": "2026-08-04",
+      "title": "Yellowstone and Beartooth",
+      "summary": "Greatest-hits Yellowstone: Old Faithful, Grand Prismatic, the Grand Canyon of the Yellowstone, and Lamar Valley, then out the Northeast Entrance and over Beartooth Highway to Billings.",
+      "heroMoment": "Grand Prismatic, the Yellowstone canyon, and Beartooth Highway",
+      "parkIds": ["yellowstone"],
+      "driveSummary": "Jackson through Yellowstone to Billings via Beartooth Highway. Long day—protect the schedule.",
+      "eveningNote": "Overnight in Billings. Celebrate surviving the big one."
+    },
+    {
+      "id": "day10",
+      "date": "2026-08-05",
+      "title": "Billings to Deadwood",
+      "summary": "Devils Tower is the high-payoff break between Billings and Deadwood: visitor center, Tower Trail, and the prairie dog town.",
+      "heroMoment": "Devils Tower rising off the prairie",
+      "parkIds": ["devils-tower"],
+      "driveSummary": "Billings to Deadwood with a Devils Tower detour.",
+      "eveningNote": "Overnight in Deadwood. Prefer a low-smoke environment."
+    },
+    {
+      "id": "day11",
+      "date": "2026-08-06",
+      "title": "Deadwood to Marion via Mount Rushmore",
+      "summary": "Mount Rushmore in morning light, a brief Crazy Horse stop, then the long run home to Marion.",
+      "heroMoment": "Mount Rushmore",
+      "parkIds": [],
+      "driveSummary": "Deadwood to Mount Rushmore and Crazy Horse, then home to Marion, IA.",
+      "eveningNote": "Home. Start the photo backup tonight."
+    }
+  ]
+}

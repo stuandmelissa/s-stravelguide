@@ -1,65 +1,141 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import Link from "next/link";
+import { ArrowRight, BedDouble, Car, ListChecks, Moon } from "lucide-react";
+
+import { StatusBadge } from "@/components/status-badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Progress } from "@/components/ui/progress";
+import { useTripDate } from "@/hooks/use-trip-date";
+import { formatTripDate, getNight, tripDays, tripDaysFile } from "@/lib/data";
+
+export default function HomePage() {
+  const tripDate = useTripDate();
+
+  if (!tripDate) {
+    return (
+      <div className="space-y-4" aria-busy>
+        <div className="h-8 w-48 animate-pulse rounded-lg bg-muted" />
+        <div className="h-56 animate-pulse rounded-3xl bg-muted" />
+        <div className="h-28 animate-pulse rounded-3xl bg-muted" />
+      </div>
+    );
+  }
+
+  const { phase, currentDay } = tripDate;
+  const dayNumber = tripDays.findIndex((d) => d.id === currentDay.id) + 1;
+  const night = getNight(currentDay.date);
+
+  const contextLine =
+    phase === "before"
+      ? `The adventure begins ${formatTripDate(tripDaysFile.startDate)}.`
+      : phase === "after"
+        ? "What a trip. Time to relive it."
+        : `Day ${dayNumber} of ${tripDays.length}`;
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className="space-y-5">
+      <header className="space-y-1">
+        <p className="text-sm font-medium text-muted-foreground">{contextLine}</p>
+        <h1 className="text-3xl font-semibold tracking-tight">
+          {formatTripDate(currentDay.date)}
+        </h1>
+      </header>
+
+      {/* HeroCard: what should we do today? */}
+      <Card className="overflow-hidden border-none bg-gradient-to-br from-primary to-primary/80 text-primary-foreground shadow-lg">
+        <CardContent className="space-y-4 p-6">
+          <div className="space-y-1.5">
+            <h2 className="text-2xl font-semibold leading-tight">{currentDay.title}</h2>
+            {currentDay.heroMoment && (
+              <p className="text-sm font-medium text-primary-foreground/90">
+                Today&apos;s hero: {currentDay.heroMoment}
+              </p>
+            )}
+          </div>
+          <p className="text-sm leading-relaxed text-primary-foreground/85">
+            {currentDay.summary}
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Button
+            size="lg"
+            className="w-full bg-cream font-semibold text-charcoal hover:bg-cream/90 dark:bg-primary-foreground dark:text-charcoal"
+            render={<Link href="/today" />}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            Open today&apos;s plan
+            <ArrowRight aria-hidden />
+          </Button>
+        </CardContent>
+      </Card>
+
+      {/* Tonight */}
+      <Card>
+        <CardContent className="space-y-3 p-5">
+          <div className="flex items-center justify-between gap-2">
+            <div className="flex items-center gap-2 text-sm font-semibold">
+              <Moon className="size-4 text-slate-blue" aria-hidden />
+              Tonight
+            </div>
+            {night && <StatusBadge status={night.status} />}
+          </div>
+          {night ? (
+            <div className="space-y-1">
+              <p className="text-lg font-medium">{night.hotel ?? "Hotel to be chosen"}</p>
+              <p className="text-sm text-muted-foreground">{night.city}</p>
+              {(night.purpose ?? night.notes) && (
+                <p className="text-sm text-muted-foreground">{night.purpose ?? night.notes}</p>
+              )}
+            </div>
+          ) : (
+            <p className="text-lg font-medium">Home sweet home.</p>
+          )}
+        </CardContent>
+      </Card>
+
+      {/* Drive */}
+      <Card>
+        <CardContent className="flex items-start gap-3 p-5">
+          <Car className="mt-0.5 size-4 shrink-0 text-burnt" aria-hidden />
+          <div className="space-y-1">
+            <p className="text-sm font-semibold">The drive</p>
+            <p className="text-sm text-muted-foreground">{currentDay.driveSummary}</p>
+          </div>
+        </CardContent>
+      </Card>
+
+      {/* Quick actions */}
+      <div className="grid grid-cols-2 gap-3">
+        <Button
+          variant="outline"
+          size="lg"
+          className="h-auto flex-col gap-1.5 py-4"
+          render={<Link href="/hotels" />}
+        >
+          <BedDouble className="size-5 text-primary" aria-hidden />
+          Hotels
+        </Button>
+        <Button
+          variant="outline"
+          size="lg"
+          className="h-auto flex-col gap-1.5 py-4"
+          render={<Link href="/packing" />}
+        >
+          <ListChecks className="size-5 text-primary" aria-hidden />
+          Packing
+        </Button>
+      </div>
+
+      {phase === "during" && (
+        <div className="space-y-2 px-1 pt-1">
+          <div className="flex justify-between text-xs font-medium text-muted-foreground">
+            <span>Trip progress</span>
+            <span>
+              Day {dayNumber} of {tripDays.length}
+            </span>
+          </div>
+          <Progress value={(dayNumber / tripDays.length) * 100} />
         </div>
-      </main>
+      )}
     </div>
   );
 }
