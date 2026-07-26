@@ -58,6 +58,11 @@ export default function HotelsPage() {
                     )}
                   </div>
                 )}
+                {night.confirmationNumber && (
+                  <p className="font-mono text-xs text-foreground/80">
+                    Confirmation {night.confirmationNumber}
+                  </p>
+                )}
                 {(night.purpose ?? night.notes) && (
                   <p className="text-sm text-muted-foreground">
                     {night.purpose ?? night.notes}

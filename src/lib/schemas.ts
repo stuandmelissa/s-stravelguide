@@ -19,6 +19,7 @@ export const nightSchema = z.object({
   notes: z.string().optional(),
   breakfast: z.string().optional(),
   parking: z.string().optional(),
+  confirmationNumber: z.string().optional(),
 });
 
 export const reservationSchema = z.object({
@@ -29,6 +30,7 @@ export const reservationSchema = z.object({
   time: z.string().optional(),
   location: z.string().optional(),
   notes: z.string().optional(),
+  confirmationNumber: z.string().optional(),
 });
 
 export const packingGroupSchema = z.object({

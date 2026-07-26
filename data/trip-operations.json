@@ -52,6 +52,7 @@
       "status": "booked",
       "breakfast": "Not included",
       "parking": "$20/day",
+      "confirmationNumber": "95027662",
       "notes": "Marriott property, steps from the Zion entrance"
     },
     {
@@ -70,6 +71,7 @@
       "status": "booked",
       "breakfast": "Continental breakfast",
       "parking": "$25/day valet",
+      "confirmationNumber": "1000561460",
       "notes": "Luxury stay, close to Town Square"
     },
     {
@@ -79,6 +81,7 @@
       "status": "booked",
       "breakfast": "Continental breakfast",
       "parking": "$25/day valet",
+      "confirmationNumber": "1000561460",
       "notes": "Rafting day"
     },
     {
@@ -97,11 +100,18 @@
       "status": "booked",
       "breakfast": "Free hot breakfast",
       "parking": "$14.95/day",
+      "confirmationNumber": "3511114099",
       "notes": "Great base for Mount Rushmore and Crazy Horse"
     }
   ],
   "reservations": [
-    {"title":"America the Beautiful Pass","type":"park-pass","status":"planned"},
+    {
+      "title": "America the Beautiful Pass",
+      "type": "park-pass",
+      "status": "confirmed",
+      "confirmationNumber": "0844207201-1",
+      "notes": "Resident Annual pass, holder Stuart Williams. Issued Jul 18, 2026, valid until Jul 31, 2027. Digital pass in Apple Wallet (Recreation.gov)."
+    },
     {
       "title": "Whitewater Rafting in Jackson Hole: Small Boat Excitement",
       "type": "activity",

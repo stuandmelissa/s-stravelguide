@@ -70,6 +70,11 @@ export default function MorePage() {
                         .join(" · ")}
                     </p>
                   )}
+                  {reservation.confirmationNumber && (
+                    <p className="font-mono text-xs text-foreground/80">
+                      Confirmation {reservation.confirmationNumber}
+                    </p>
+                  )}
                   {reservation.notes && (
                     <p className="text-xs text-muted-foreground">{reservation.notes}</p>
                   )}
