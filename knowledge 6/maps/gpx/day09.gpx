@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="S&S Travel Guide" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Yellowstone and Beartooth</name><desc>Planning waypoints and overview connection; not road-snapped navigation.</desc></metadata>
+  <wpt lat="43.4799" lon="-110.7624"><name>Jackson, Wyoming</name><type>destination</type></wpt>
+  <wpt lat="44.4605" lon="-110.8281"><name>Old Faithful</name><type>viewpoint</type></wpt>
+  <wpt lat="44.525" lon="-110.8382"><name>Grand Prismatic Spring</name><type>viewpoint</type></wpt>
+  <wpt lat="44.7214" lon="-110.4796"><name>Artist Point</name><type>viewpoint</type></wpt>
+  <wpt lat="44.8955" lon="-110.2195"><name>Lamar Valley</name><type>wildlife_zone</type></wpt>
+  <wpt lat="44.9766" lon="-110.7018"><name>Mammoth Hot Springs</name><type>visitor_center</type></wpt>
+  <wpt lat="44.9697" lon="-109.4687"><name>Beartooth Pass West Summit</name><type>viewpoint</type></wpt>
+  <wpt lat="45.0503" lon="-109.4077"><name>Rock Creek Vista Point</name><type>viewpoint</type></wpt>
+  <wpt lat="45.1858" lon="-109.2468"><name>Red Lodge, Montana</name><type>destination</type></wpt>
+  <wpt lat="45.7833" lon="-108.5007"><name>Billings, Montana</name><type>destination</type></wpt>
+  <trk><name>Yellowstone and Beartooth</name><trkseg>
+      <trkpt lat="43.4799" lon="-110.7624"><name>Jackson, Wyoming</name></trkpt>
+      <trkpt lat="44.4605" lon="-110.8281"><name>Old Faithful</name></trkpt>
+      <trkpt lat="44.525" lon="-110.8382"><name>Grand Prismatic Spring</name></trkpt>
+      <trkpt lat="44.7214" lon="-110.4796"><name>Artist Point</name></trkpt>
+      <trkpt lat="44.8955" lon="-110.2195"><name>Lamar Valley</name></trkpt>
+      <trkpt lat="44.9766" lon="-110.7018"><name>Mammoth Hot Springs</name></trkpt>
+      <trkpt lat="44.9697" lon="-109.4687"><name>Beartooth Pass West Summit</name></trkpt>
+      <trkpt lat="45.0503" lon="-109.4077"><name>Rock Creek Vista Point</name></trkpt>
+      <trkpt lat="45.1858" lon="-109.2468"><name>Red Lodge, Montana</name></trkpt>
+      <trkpt lat="45.7833" lon="-108.5007"><name>Billings, Montana</name></trkpt>
+  </trkseg></trk>
+</gpx>

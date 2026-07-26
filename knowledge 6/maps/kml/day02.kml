@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>RMNP Traverse to Grand Lake</name><Placemark><name>Fort Collins, Colorado</name><description>destination; confidence: high</description><Point><coordinates>-105.0844,40.5853,0</coordinates></Point></Placemark>
+<Placemark><name>Beaver Meadows Visitor Center</name><description>visitor_center; confidence: high</description><Point><coordinates>-105.568,40.3619,0</coordinates></Point></Placemark>
+<Placemark><name>Bear Lake Trailhead</name><description>trailhead; confidence: high</description><Point><coordinates>-105.6457,40.3127,0</coordinates></Point></Placemark>
+<Placemark><name>Alpine Visitor Center</name><description>visitor_center; confidence: high</description><Point><coordinates>-105.7559,40.4411,0</coordinates></Point></Placemark>
+<Placemark><name>Holzwarth Historic Site / Kawuneeche Valley</name><description>wildlife_zone; confidence: approximate</description><Point><coordinates>-105.8495,40.4079,0</coordinates></Point></Placemark>
+<Placemark><name>Grand Lake, Colorado</name><description>destination; confidence: high</description><Point><coordinates>-105.8231,40.2522,0</coordinates></Point></Placemark>
+<Placemark><name>Moab, Utah</name><description>destination; confidence: high</description><Point><coordinates>-109.5498,38.5733,0</coordinates></Point></Placemark><Placemark><name>RMNP Traverse to Grand Lake overview</name><description>Waypoint connection only; not road-snapped.</description><LineString><tessellate>1</tessellate><coordinates>-105.0844,40.5853,0 -105.568,40.3619,0 -105.6457,40.3127,0 -105.7559,40.4411,0 -105.8495,40.4079,0 -105.8231,40.2522,0 -109.5498,38.5733,0</coordinates></LineString></Placemark></Document></kml>

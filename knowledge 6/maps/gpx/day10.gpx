@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="S&S Travel Guide" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Billings to Deadwood</name><desc>Planning waypoints and overview connection; not road-snapped navigation.</desc></metadata>
+  <wpt lat="45.7833" lon="-108.5007"><name>Billings, Montana</name><type>destination</type></wpt>
+  <wpt lat="44.5902" lon="-104.7146"><name>Devils Tower Visitor Center</name><type>visitor_center</type></wpt>
+  <wpt lat="44.3767" lon="-103.7296"><name>Deadwood, South Dakota</name><type>destination</type></wpt>
+  <trk><name>Billings to Deadwood</name><trkseg>
+      <trkpt lat="45.7833" lon="-108.5007"><name>Billings, Montana</name></trkpt>
+      <trkpt lat="44.5902" lon="-104.7146"><name>Devils Tower Visitor Center</name></trkpt>
+      <trkpt lat="44.3767" lon="-103.7296"><name>Deadwood, South Dakota</name></trkpt>
+  </trkseg></trk>
+</gpx>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>Bryce to Zion</name><Placemark><name>Bryce Canyon City</name><description>destination; confidence: high</description><Point><coordinates>-112.1587,37.6733,0</coordinates></Point></Placemark>
+<Placemark><name>Inspiration Point, Bryce Canyon</name><description>viewpoint; confidence: high</description><Point><coordinates>-112.1709,37.6154,0</coordinates></Point></Placemark>
+<Placemark><name>Sunset Point, Bryce Canyon</name><description>viewpoint; confidence: high</description><Point><coordinates>-112.1666,37.6283,0</coordinates></Point></Placemark>
+<Placemark><name>Canyon Overlook Trailhead</name><description>trailhead; confidence: high</description><Point><coordinates>-112.9404,37.2133,0</coordinates></Point></Placemark>
+<Placemark><name>Zion Canyon Visitor Center</name><description>visitor_center; confidence: high</description><Point><coordinates>-112.9868,37.2,0</coordinates></Point></Placemark>
+<Placemark><name>Springdale, Utah</name><description>destination; confidence: high</description><Point><coordinates>-112.9986,37.1889,0</coordinates></Point></Placemark><Placemark><name>Bryce to Zion overview</name><description>Waypoint connection only; not road-snapped.</description><LineString><tessellate>1</tessellate><coordinates>-112.1587,37.6733,0 -112.1709,37.6154,0 -112.1666,37.6283,0 -112.9404,37.2133,0 -112.9868,37.2,0 -112.9986,37.1889,0</coordinates></LineString></Placemark></Document></kml>

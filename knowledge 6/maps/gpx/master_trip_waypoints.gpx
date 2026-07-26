@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="S&S Travel Guide" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>S&amp;S Western Road Trip</name><desc>Planning waypoints and overview connection; not road-snapped navigation.</desc></metadata>
+  <wpt lat="42.0342" lon="-91.5977"><name>Marion, Iowa</name><type>destination</type></wpt>
+  <wpt lat="40.5853" lon="-105.0844"><name>Fort Collins, Colorado</name><type>destination</type></wpt>
+  <wpt lat="40.3619" lon="-105.568"><name>Beaver Meadows Visitor Center</name><type>visitor_center</type></wpt>
+  <wpt lat="40.3127" lon="-105.6457"><name>Bear Lake Trailhead</name><type>trailhead</type></wpt>
+  <wpt lat="40.4411" lon="-105.7559"><name>Alpine Visitor Center</name><type>visitor_center</type></wpt>
+  <wpt lat="40.4079" lon="-105.8495"><name>Holzwarth Historic Site / Kawuneeche Valley</name><type>wildlife_zone</type></wpt>
+  <wpt lat="40.2522" lon="-105.8231"><name>Grand Lake, Colorado</name><type>destination</type></wpt>
+  <wpt lat="38.5733" lon="-109.5498"><name>Moab, Utah</name><type>destination</type></wpt>
+  <wpt lat="38.6166" lon="-109.62"><name>Arches Visitor Center</name><type>visitor_center</type></wpt>
+  <wpt lat="38.687" lon="-109.5369"><name>Windows Trailhead</name><type>trailhead</type></wpt>
+  <wpt lat="38.7013" lon="-109.5657"><name>Balanced Rock</name><type>viewpoint</type></wpt>
+  <wpt lat="38.735" lon="-109.5047"><name>Lower Delicate Arch Viewpoint</name><type>viewpoint</type></wpt>
+  <wpt lat="38.5738" lon="-110.7072"><name>Goblin Valley State Park</name><type>viewpoint</type></wpt>
+  <wpt lat="38.2916" lon="-111.2615"><name>Capitol Reef Visitor Center</name><type>visitor_center</type></wpt>
+  <wpt lat="37.9221" lon="-111.423"><name>Boulder, Utah</name><type>destination</type></wpt>
+  <wpt lat="37.7451" lon="-111.4493"><name>Head of the Rocks Overlook</name><type>viewpoint</type></wpt>
+  <wpt lat="37.6283" lon="-112.1666"><name>Sunset Point, Bryce Canyon</name><type>viewpoint</type></wpt>
+  <wpt lat="37.6733" lon="-112.1587"><name>Bryce Canyon City</name><type>destination</type></wpt>
+  <wpt lat="37.6154" lon="-112.1709"><name>Inspiration Point, Bryce Canyon</name><type>viewpoint</type></wpt>
+  <wpt lat="37.2133" lon="-112.9404"><name>Canyon Overlook Trailhead</name><type>trailhead</type></wpt>
+  <wpt lat="37.2" lon="-112.9868"><name>Zion Canyon Visitor Center</name><type>visitor_center</type></wpt>
+  <wpt lat="37.1889" lon="-112.9986"><name>Springdale, Utah</name><type>destination</type></wpt>
+  <wpt lat="37.635" lon="-112.8453"><name>Cedar Breaks National Monument</name><type>viewpoint</type></wpt>
+  <wpt lat="43.4927" lon="-112.0408"><name>Idaho Falls, Idaho</name><type>destination</type></wpt>
+  <wpt lat="43.865" lon="-110.547"><name>Oxbow Bend</name><type>viewpoint</type></wpt>
+  <wpt lat="43.8435" lon="-110.6127"><name>Signal Mountain Summit</name><type>viewpoint</type></wpt>
+  <wpt lat="43.752" lon="-110.722"><name>Jenny Lake Visitor Area</name><type>visitor_center</type></wpt>
+  <wpt lat="43.6608" lon="-110.6647"><name>Mormon Row Historic District</name><type>viewpoint</type></wpt>
+  <wpt lat="43.4799" lon="-110.7624"><name>Jackson, Wyoming</name><type>destination</type></wpt>
+  <wpt lat="44.4605" lon="-110.8281"><name>Old Faithful</name><type>viewpoint</type></wpt>
+  <wpt lat="44.525" lon="-110.8382"><name>Grand Prismatic Spring</name><type>viewpoint</type></wpt>
+  <wpt lat="44.7214" lon="-110.4796"><name>Artist Point</name><type>viewpoint</type></wpt>
+  <wpt lat="44.8955" lon="-110.2195"><name>Lamar Valley</name><type>wildlife_zone</type></wpt>
+  <wpt lat="44.9766" lon="-110.7018"><name>Mammoth Hot Springs</name><type>visitor_center</type></wpt>
+  <wpt lat="44.9697" lon="-109.4687"><name>Beartooth Pass West Summit</name><type>viewpoint</type></wpt>
+  <wpt lat="45.0503" lon="-109.4077"><name>Rock Creek Vista Point</name><type>viewpoint</type></wpt>
+  <wpt lat="45.1858" lon="-109.2468"><name>Red Lodge, Montana</name><type>destination</type></wpt>
+  <wpt lat="45.7833" lon="-108.5007"><name>Billings, Montana</name><type>destination</type></wpt>
+  <wpt lat="44.5902" lon="-104.7146"><name>Devils Tower Visitor Center</name><type>visitor_center</type></wpt>
+  <wpt lat="44.3767" lon="-103.7296"><name>Deadwood, South Dakota</name><type>destination</type></wpt>
+  <trk><name>S&amp;S Western Road Trip</name><trkseg>
+      <trkpt lat="42.0342" lon="-91.5977"><name>Marion, Iowa</name></trkpt>
+      <trkpt lat="40.5853" lon="-105.0844"><name>Fort Collins, Colorado</name></trkpt>
+      <trkpt lat="40.3619" lon="-105.568"><name>Beaver Meadows Visitor Center</name></trkpt>
+      <trkpt lat="40.3127" lon="-105.6457"><name>Bear Lake Trailhead</name></trkpt>
+      <trkpt lat="40.4411" lon="-105.7559"><name>Alpine Visitor Center</name></trkpt>
+      <trkpt lat="40.4079" lon="-105.8495"><name>Holzwarth Historic Site / Kawuneeche Valley</name></trkpt>
+      <trkpt lat="40.2522" lon="-105.8231"><name>Grand Lake, Colorado</name></trkpt>
+      <trkpt lat="38.5733" lon="-109.5498"><name>Moab, Utah</name></trkpt>
+      <trkpt lat="38.6166" lon="-109.62"><name>Arches Visitor Center</name></trkpt>
+      <trkpt lat="38.687" lon="-109.5369"><name>Windows Trailhead</name></trkpt>
+      <trkpt lat="38.7013" lon="-109.5657"><name>Balanced Rock</name></trkpt>
+      <trkpt lat="38.735" lon="-109.5047"><name>Lower Delicate Arch Viewpoint</name></trkpt>
+      <trkpt lat="38.5738" lon="-110.7072"><name>Goblin Valley State Park</name></trkpt>
+      <trkpt lat="38.2916" lon="-111.2615"><name>Capitol Reef Visitor Center</name></trkpt>
+      <trkpt lat="37.9221" lon="-111.423"><name>Boulder, Utah</name></trkpt>
+      <trkpt lat="37.7451" lon="-111.4493"><name>Head of the Rocks Overlook</name></trkpt>
+      <trkpt lat="37.6283" lon="-112.1666"><name>Sunset Point, Bryce Canyon</name></trkpt>
+      <trkpt lat="37.6733" lon="-112.1587"><name>Bryce Canyon City</name></trkpt>
+      <trkpt lat="37.6154" lon="-112.1709"><name>Inspiration Point, Bryce Canyon</name></trkpt>
+      <trkpt lat="37.2133" lon="-112.9404"><name>Canyon Overlook Trailhead</name></trkpt>
+      <trkpt lat="37.2" lon="-112.9868"><name>Zion Canyon Visitor Center</name></trkpt>
+      <trkpt lat="37.1889" lon="-112.9986"><name>Springdale, Utah</name></trkpt>
+      <trkpt lat="37.635" lon="-112.8453"><name>Cedar Breaks National Monument</name></trkpt>
+      <trkpt lat="43.4927" lon="-112.0408"><name>Idaho Falls, Idaho</name></trkpt>
+      <trkpt lat="43.865" lon="-110.547"><name>Oxbow Bend</name></trkpt>
+      <trkpt lat="43.8435" lon="-110.6127"><name>Signal Mountain Summit</name></trkpt>
+      <trkpt lat="43.752" lon="-110.722"><name>Jenny Lake Visitor Area</name></trkpt>
+      <trkpt lat="43.6608" lon="-110.6647"><name>Mormon Row Historic District</name></trkpt>
+      <trkpt lat="43.4799" lon="-110.7624"><name>Jackson, Wyoming</name></trkpt>
+      <trkpt lat="44.4605" lon="-110.8281"><name>Old Faithful</name></trkpt>
+      <trkpt lat="44.525" lon="-110.8382"><name>Grand Prismatic Spring</name></trkpt>
+      <trkpt lat="44.7214" lon="-110.4796"><name>Artist Point</name></trkpt>
+      <trkpt lat="44.8955" lon="-110.2195"><name>Lamar Valley</name></trkpt>
+      <trkpt lat="44.9766" lon="-110.7018"><name>Mammoth Hot Springs</name></trkpt>
+      <trkpt lat="44.9697" lon="-109.4687"><name>Beartooth Pass West Summit</name></trkpt>
+      <trkpt lat="45.0503" lon="-109.4077"><name>Rock Creek Vista Point</name></trkpt>
+      <trkpt lat="45.1858" lon="-109.2468"><name>Red Lodge, Montana</name></trkpt>
+      <trkpt lat="45.7833" lon="-108.5007"><name>Billings, Montana</name></trkpt>
+      <trkpt lat="44.5902" lon="-104.7146"><name>Devils Tower Visitor Center</name></trkpt>
+      <trkpt lat="44.3767" lon="-103.7296"><name>Deadwood, South Dakota</name></trkpt>
+  </trkseg></trk>
+</gpx>

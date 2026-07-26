@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>Jackson Activities</name><Placemark><name>Jackson, Wyoming</name><description>destination; confidence: high</description><Point><coordinates>-110.7624,43.4799,0</coordinates></Point></Placemark><Placemark><name>Jackson Activities overview</name><description>Waypoint connection only; not road-snapped.</description><LineString><tessellate>1</tessellate><coordinates>-110.7624,43.4799,0</coordinates></LineString></Placemark></Document></kml>

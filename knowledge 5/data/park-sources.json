@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-07-26",
+  "sources": [
+    {
+      "id": "rmnp-timed-entry",
+      "url": "https://www.nps.gov/romo/planyourvisit/timed-entry-permit-system.htm",
+      "official": true,
+      "volatile": true
+    },
+    {
+      "id": "rmnp-roads",
+      "url": "https://www.nps.gov/romo/planyourvisit/road_status.htm",
+      "official": true,
+      "volatile": true
+    },
+    {
+      "id": "arches-entry",
+      "url": "https://www.nps.gov/arch/planyourvisit/index.htm",
+      "official": true,
+      "volatile": true
+    },
+    {
+      "id": "bryce-shuttle",
+      "url": "https://www.nps.gov/brca/planyourvisit/shuttle.htm",
+      "official": true,
+      "volatile": true
+    },
+    {
+      "id": "zion-shuttle",
+      "url": "https://www.nps.gov/zion/learn/news/2026-02-06-shuttle-schedule.htm",
+      "official": true,
+      "volatile": true
+    },
+    {
+      "id": "grte-parking",
+      "url": "https://www.nps.gov/grte/planyourvisit/parking.htm",
+      "official": true,
+      "volatile": true
+    },
+    {
+      "id": "grte-construction",
+      "url": "https://www.nps.gov/grte/learn/news/grand-teton-2026-infrastructure-enhancements.htm",
+      "official": true,
+      "volatile": true
+    },
+    {
+      "id": "yellowstone-roads",
+      "url": "https://www.nps.gov/yell/planyourvisit/parkroads.htm",
+      "official": true,
+      "volatile": true
+    },
+    {
+      "id": "devils-tower-hours",
+      "url": "https://www.nps.gov/deto/planyourvisit/hours.htm",
+      "official": true,
+      "volatile": true
+    }
+  ]
+}

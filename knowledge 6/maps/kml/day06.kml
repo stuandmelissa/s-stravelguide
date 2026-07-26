@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>Zion to Idaho Falls</name><Placemark><name>Springdale, Utah</name><description>destination; confidence: high</description><Point><coordinates>-112.9986,37.1889,0</coordinates></Point></Placemark>
+<Placemark><name>Cedar Breaks National Monument</name><description>viewpoint; confidence: high</description><Point><coordinates>-112.8453,37.635,0</coordinates></Point></Placemark>
+<Placemark><name>Idaho Falls, Idaho</name><description>destination; confidence: high</description><Point><coordinates>-112.0408,43.4927,0</coordinates></Point></Placemark><Placemark><name>Zion to Idaho Falls overview</name><description>Waypoint connection only; not road-snapped.</description><LineString><tessellate>1</tessellate><coordinates>-112.9986,37.1889,0 -112.8453,37.635,0 -112.0408,43.4927,0</coordinates></LineString></Placemark></Document></kml>

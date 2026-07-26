@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>Arches National Park</name><Placemark><name>Moab, Utah</name><description>destination; confidence: high</description><Point><coordinates>-109.5498,38.5733,0</coordinates></Point></Placemark>
+<Placemark><name>Arches Visitor Center</name><description>visitor_center; confidence: high</description><Point><coordinates>-109.62,38.6166,0</coordinates></Point></Placemark>
+<Placemark><name>Windows Trailhead</name><description>trailhead; confidence: high</description><Point><coordinates>-109.5369,38.687,0</coordinates></Point></Placemark>
+<Placemark><name>Balanced Rock</name><description>viewpoint; confidence: high</description><Point><coordinates>-109.5657,38.7013,0</coordinates></Point></Placemark>
+<Placemark><name>Lower Delicate Arch Viewpoint</name><description>viewpoint; confidence: high</description><Point><coordinates>-109.5047,38.735,0</coordinates></Point></Placemark>
+<Placemark><name>Moab, Utah</name><description>destination; confidence: high</description><Point><coordinates>-109.5498,38.5733,0</coordinates></Point></Placemark><Placemark><name>Arches National Park overview</name><description>Waypoint connection only; not road-snapped.</description><LineString><tessellate>1</tessellate><coordinates>-109.5498,38.5733,0 -109.62,38.6166,0 -109.5369,38.687,0 -109.5657,38.7013,0 -109.5047,38.735,0 -109.5498,38.5733,0</coordinates></LineString></Placemark></Document></kml>

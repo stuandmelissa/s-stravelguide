@@ -1,0 +1,1131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "marion_home_area",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.5977,
+          42.0342
+        ]
+      },
+      "properties": {
+        "id": "marion_home_area",
+        "name": "Marion, Iowa",
+        "type": "destination",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=42.0342,-91.5977&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=42.0342,-91.5977&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "fort_collins",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0844,
+          40.5853
+        ]
+      },
+      "properties": {
+        "id": "fort_collins",
+        "name": "Fort Collins, Colorado",
+        "type": "destination",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=40.5853,-105.0844&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=40.5853,-105.0844&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rmnp_beaver_meadows",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.568,
+          40.3619
+        ]
+      },
+      "properties": {
+        "id": "rmnp_beaver_meadows",
+        "name": "Beaver Meadows Visitor Center",
+        "type": "visitor_center",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=40.3619,-105.568&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=40.3619,-105.568&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rmnp_bear_lake",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.6457,
+          40.3127
+        ]
+      },
+      "properties": {
+        "id": "rmnp_bear_lake",
+        "name": "Bear Lake Trailhead",
+        "type": "trailhead",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=40.3127,-105.6457&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=40.3127,-105.6457&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rmnp_alpine_vc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.7559,
+          40.4411
+        ]
+      },
+      "properties": {
+        "id": "rmnp_alpine_vc",
+        "name": "Alpine Visitor Center",
+        "type": "visitor_center",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=40.4411,-105.7559&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=40.4411,-105.7559&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rmnp_holzwarth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.8495,
+          40.4079
+        ]
+      },
+      "properties": {
+        "id": "rmnp_holzwarth",
+        "name": "Holzwarth Historic Site / Kawuneeche Valley",
+        "type": "wildlife_zone",
+        "confidence": "approximate",
+        "apple_maps": "https://maps.apple.com/?daddr=40.4079,-105.8495&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=40.4079,-105.8495&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "grand_lake",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.8231,
+          40.2522
+        ]
+      },
+      "properties": {
+        "id": "grand_lake",
+        "name": "Grand Lake, Colorado",
+        "type": "destination",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=40.2522,-105.8231&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=40.2522,-105.8231&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "moab",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5498,
+          38.5733
+        ]
+      },
+      "properties": {
+        "id": "moab",
+        "name": "Moab, Utah",
+        "type": "destination",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=38.5733,-109.5498&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=38.5733,-109.5498&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arches_visitor_center",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.62,
+          38.6166
+        ]
+      },
+      "properties": {
+        "id": "arches_visitor_center",
+        "name": "Arches Visitor Center",
+        "type": "visitor_center",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=38.6166,-109.62&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=38.6166,-109.62&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arches_windows",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5369,
+          38.687
+        ]
+      },
+      "properties": {
+        "id": "arches_windows",
+        "name": "Windows Trailhead",
+        "type": "trailhead",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=38.687,-109.5369&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=38.687,-109.5369&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arches_delicate_view",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5047,
+          38.735
+        ]
+      },
+      "properties": {
+        "id": "arches_delicate_view",
+        "name": "Lower Delicate Arch Viewpoint",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=38.735,-109.5047&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=38.735,-109.5047&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "arches_balanced_rock",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5657,
+          38.7013
+        ]
+      },
+      "properties": {
+        "id": "arches_balanced_rock",
+        "name": "Balanced Rock",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=38.7013,-109.5657&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=38.7013,-109.5657&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "goblin_valley",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.7072,
+          38.5738
+        ]
+      },
+      "properties": {
+        "id": "goblin_valley",
+        "name": "Goblin Valley State Park",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=38.5738,-110.7072&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=38.5738,-110.7072&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "capitol_reef_vc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.2615,
+          38.2916
+        ]
+      },
+      "properties": {
+        "id": "capitol_reef_vc",
+        "name": "Capitol Reef Visitor Center",
+        "type": "visitor_center",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=38.2916,-111.2615&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=38.2916,-111.2615&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "boulder_ut",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.423,
+          37.9221
+        ]
+      },
+      "properties": {
+        "id": "boulder_ut",
+        "name": "Boulder, Utah",
+        "type": "destination",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=37.9221,-111.423&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.9221,-111.423&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "head_of_rocks",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.4493,
+          37.7451
+        ]
+      },
+      "properties": {
+        "id": "head_of_rocks",
+        "name": "Head of the Rocks Overlook",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=37.7451,-111.4493&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.7451,-111.4493&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bryce_sunset",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1666,
+          37.6283
+        ]
+      },
+      "properties": {
+        "id": "bryce_sunset",
+        "name": "Sunset Point, Bryce Canyon",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=37.6283,-112.1666&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.6283,-112.1666&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bryce_inspiration",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1709,
+          37.6154
+        ]
+      },
+      "properties": {
+        "id": "bryce_inspiration",
+        "name": "Inspiration Point, Bryce Canyon",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=37.6154,-112.1709&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.6154,-112.1709&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bryce_city",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1587,
+          37.6733
+        ]
+      },
+      "properties": {
+        "id": "bryce_city",
+        "name": "Bryce Canyon City",
+        "type": "destination",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=37.6733,-112.1587&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.6733,-112.1587&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "zion_vc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.9868,
+          37.2
+        ]
+      },
+      "properties": {
+        "id": "zion_vc",
+        "name": "Zion Canyon Visitor Center",
+        "type": "visitor_center",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=37.2,-112.9868&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.2,-112.9868&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "canyon_overlook",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.9404,
+          37.2133
+        ]
+      },
+      "properties": {
+        "id": "canyon_overlook",
+        "name": "Canyon Overlook Trailhead",
+        "type": "trailhead",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=37.2133,-112.9404&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.2133,-112.9404&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "springdale",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.9986,
+          37.1889
+        ]
+      },
+      "properties": {
+        "id": "springdale",
+        "name": "Springdale, Utah",
+        "type": "destination",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=37.1889,-112.9986&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.1889,-112.9986&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "cedar_breaks",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.8453,
+          37.635
+        ]
+      },
+      "properties": {
+        "id": "cedar_breaks",
+        "name": "Cedar Breaks National Monument",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=37.635,-112.8453&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.635,-112.8453&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "idaho_falls",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0408,
+          43.4927
+        ]
+      },
+      "properties": {
+        "id": "idaho_falls",
+        "name": "Idaho Falls, Idaho",
+        "type": "destination",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=43.4927,-112.0408&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=43.4927,-112.0408&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "teton_oxbow",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.547,
+          43.865
+        ]
+      },
+      "properties": {
+        "id": "teton_oxbow",
+        "name": "Oxbow Bend",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=43.865,-110.547&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=43.865,-110.547&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "teton_signal",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.6127,
+          43.8435
+        ]
+      },
+      "properties": {
+        "id": "teton_signal",
+        "name": "Signal Mountain Summit",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=43.8435,-110.6127&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=43.8435,-110.6127&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "teton_jenny",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.722,
+          43.752
+        ]
+      },
+      "properties": {
+        "id": "teton_jenny",
+        "name": "Jenny Lake Visitor Area",
+        "type": "visitor_center",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=43.752,-110.722&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=43.752,-110.722&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "teton_mormon_row",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.6647,
+          43.6608
+        ]
+      },
+      "properties": {
+        "id": "teton_mormon_row",
+        "name": "Mormon Row Historic District",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=43.6608,-110.6647&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=43.6608,-110.6647&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "jackson",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.7624,
+          43.4799
+        ]
+      },
+      "properties": {
+        "id": "jackson",
+        "name": "Jackson, Wyoming",
+        "type": "destination",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=43.4799,-110.7624&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=43.4799,-110.7624&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yellowstone_old_faithful",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8281,
+          44.4605
+        ]
+      },
+      "properties": {
+        "id": "yellowstone_old_faithful",
+        "name": "Old Faithful",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=44.4605,-110.8281&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=44.4605,-110.8281&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yellowstone_grand_prismatic",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.8382,
+          44.525
+        ]
+      },
+      "properties": {
+        "id": "yellowstone_grand_prismatic",
+        "name": "Grand Prismatic Spring",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=44.525,-110.8382&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=44.525,-110.8382&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yellowstone_canyon",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.4796,
+          44.7214
+        ]
+      },
+      "properties": {
+        "id": "yellowstone_canyon",
+        "name": "Artist Point",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=44.7214,-110.4796&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=44.7214,-110.4796&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yellowstone_lamar",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.2195,
+          44.8955
+        ]
+      },
+      "properties": {
+        "id": "yellowstone_lamar",
+        "name": "Lamar Valley",
+        "type": "wildlife_zone",
+        "confidence": "approximate",
+        "apple_maps": "https://maps.apple.com/?daddr=44.8955,-110.2195&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=44.8955,-110.2195&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "yellowstone_mammoth",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.7018,
+          44.9766
+        ]
+      },
+      "properties": {
+        "id": "yellowstone_mammoth",
+        "name": "Mammoth Hot Springs",
+        "type": "visitor_center",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=44.9766,-110.7018&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=44.9766,-110.7018&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "beartooth_top",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.4687,
+          44.9697
+        ]
+      },
+      "properties": {
+        "id": "beartooth_top",
+        "name": "Beartooth Pass West Summit",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=44.9697,-109.4687&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=44.9697,-109.4687&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rock_creek_vista",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.4077,
+          45.0503
+        ]
+      },
+      "properties": {
+        "id": "rock_creek_vista",
+        "name": "Rock Creek Vista Point",
+        "type": "viewpoint",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=45.0503,-109.4077&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=45.0503,-109.4077&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "red_lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.2468,
+          45.1858
+        ]
+      },
+      "properties": {
+        "id": "red_lodge",
+        "name": "Red Lodge, Montana",
+        "type": "destination",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=45.1858,-109.2468&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=45.1858,-109.2468&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "billings",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.5007,
+          45.7833
+        ]
+      },
+      "properties": {
+        "id": "billings",
+        "name": "Billings, Montana",
+        "type": "destination",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=45.7833,-108.5007&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=45.7833,-108.5007&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "devils_tower_vc",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.7146,
+          44.5902
+        ]
+      },
+      "properties": {
+        "id": "devils_tower_vc",
+        "name": "Devils Tower Visitor Center",
+        "type": "visitor_center",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=44.5902,-104.7146&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=44.5902,-104.7146&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "deadwood",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.7296,
+          44.3767
+        ]
+      },
+      "properties": {
+        "id": "deadwood",
+        "name": "Deadwood, South Dakota",
+        "type": "destination",
+        "confidence": "high",
+        "apple_maps": "https://maps.apple.com/?daddr=44.3767,-103.7296&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=44.3767,-103.7296&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day01",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -91.5977,
+            42.0342
+          ],
+          [
+            -105.0844,
+            40.5853
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Marion to Fort Collins",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -105.0844,
+            40.5853
+          ],
+          [
+            -105.568,
+            40.3619
+          ],
+          [
+            -105.6457,
+            40.3127
+          ],
+          [
+            -105.7559,
+            40.4411
+          ],
+          [
+            -105.8495,
+            40.4079
+          ],
+          [
+            -105.8231,
+            40.2522
+          ],
+          [
+            -109.5498,
+            38.5733
+          ]
+        ]
+      },
+      "properties": {
+        "title": "RMNP Traverse to Grand Lake",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day03",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -109.5498,
+            38.5733
+          ],
+          [
+            -109.62,
+            38.6166
+          ],
+          [
+            -109.5369,
+            38.687
+          ],
+          [
+            -109.5657,
+            38.7013
+          ],
+          [
+            -109.5047,
+            38.735
+          ],
+          [
+            -109.5498,
+            38.5733
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Arches National Park",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -109.5498,
+            38.5733
+          ],
+          [
+            -110.7072,
+            38.5738
+          ],
+          [
+            -111.2615,
+            38.2916
+          ],
+          [
+            -111.423,
+            37.9221
+          ],
+          [
+            -111.4493,
+            37.7451
+          ],
+          [
+            -112.1666,
+            37.6283
+          ],
+          [
+            -112.1587,
+            37.6733
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Moab to Bryce via Scenic Utah",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day05",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.1587,
+            37.6733
+          ],
+          [
+            -112.1709,
+            37.6154
+          ],
+          [
+            -112.1666,
+            37.6283
+          ],
+          [
+            -112.9404,
+            37.2133
+          ],
+          [
+            -112.9868,
+            37.2
+          ],
+          [
+            -112.9986,
+            37.1889
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Bryce to Zion",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day06",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.9986,
+            37.1889
+          ],
+          [
+            -112.8453,
+            37.635
+          ],
+          [
+            -112.0408,
+            43.4927
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Zion to Idaho Falls",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day07",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.0408,
+            43.4927
+          ],
+          [
+            -110.547,
+            43.865
+          ],
+          [
+            -110.6127,
+            43.8435
+          ],
+          [
+            -110.722,
+            43.752
+          ],
+          [
+            -110.6647,
+            43.6608
+          ],
+          [
+            -110.7624,
+            43.4799
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Grand Teton to Jackson",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day08",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -110.7624,
+            43.4799
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Jackson Activities",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day09",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -110.7624,
+            43.4799
+          ],
+          [
+            -110.8281,
+            44.4605
+          ],
+          [
+            -110.8382,
+            44.525
+          ],
+          [
+            -110.4796,
+            44.7214
+          ],
+          [
+            -110.2195,
+            44.8955
+          ],
+          [
+            -110.7018,
+            44.9766
+          ],
+          [
+            -109.4687,
+            44.9697
+          ],
+          [
+            -109.4077,
+            45.0503
+          ],
+          [
+            -109.2468,
+            45.1858
+          ],
+          [
+            -108.5007,
+            45.7833
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Yellowstone and Beartooth",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day10",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -108.5007,
+            45.7833
+          ],
+          [
+            -104.7146,
+            44.5902
+          ],
+          [
+            -103.7296,
+            44.3767
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Billings to Deadwood",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day11",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -103.7296,
+            44.3767
+          ],
+          [
+            -91.5977,
+            42.0342
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Deadwood to Marion",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    }
+  ]
+}
