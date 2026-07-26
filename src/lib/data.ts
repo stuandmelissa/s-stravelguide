@@ -59,6 +59,23 @@ export function getPark(id: string): Park {
   return park;
 }
 
+const PARK_SOURCE_PREFIX: Record<string, string> = {
+  rmnp: "rmnp",
+  arches: "arches",
+  bryce: "bryce",
+  zion: "zion",
+  "grand-teton": "grte",
+  yellowstone: "yellowstone",
+  "devils-tower": "devils-tower",
+};
+
+/** Official sources for a park's volatile facts (timed entry, roads, shuttles). */
+export function getParkSources(parkId: string) {
+  const prefix = PARK_SOURCE_PREFIX[parkId];
+  if (!prefix) return [];
+  return parkSources.sources.filter((s) => s.id.startsWith(prefix));
+}
+
 export function getMapDay(dayId: string): MapDay | undefined {
   return mapDayById.get(dayId);
 }

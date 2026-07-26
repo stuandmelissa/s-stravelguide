@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Car, ChevronLeft, ChevronRight, Moon, Sparkles } from "lucide-react";
 
+import { ParkSection } from "@/components/park-section";
 import { StopList } from "@/components/stop-list";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -87,6 +88,10 @@ export default function TodayPage() {
           </p>
         </CardContent>
       </Card>
+
+      {day.parkIds.map((parkId) => (
+        <ParkSection key={parkId} dayId={day.id} parkId={parkId} />
+      ))}
 
       <section className="space-y-3">
         <h2 className="px-1 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
