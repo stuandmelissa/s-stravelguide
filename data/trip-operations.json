@@ -46,7 +46,8 @@
       "status": "booked",
       "breakfast": "Free breakfast buffet",
       "parking": "Free",
-      "notes": "Walking distance or shuttle to Bryce"
+      "confirmationNumber": "1128149371542588",
+      "notes": "Walking distance or shuttle to Bryce. Booked via Expedia (itinerary 73498702631240)."
     },
     {
       "date": "2026-07-31",
@@ -61,11 +62,12 @@
     {
       "date": "2026-08-01",
       "city": "Idaho Falls",
-      "hotel": "Holiday Inn Express Idaho Falls",
+      "hotel": "Holiday Inn Express Hotel & Suites Idaho Falls",
       "status": "booked",
       "breakfast": "Free hot breakfast",
       "parking": "Free",
-      "notes": "Easy drive to the Tetons next morning"
+      "confirmationNumber": "87635500",
+      "notes": "Easy drive to the Tetons next morning. Booked via Expedia (itinerary 73498709588203)."
     },
     {
       "date": "2026-08-02",
@@ -90,11 +92,12 @@
     {
       "date": "2026-08-04",
       "city": "Billings",
-      "hotel": "Big Horn Resort",
+      "hotel": "Big Horn Resort, an Ascend Collection Hotel",
       "status": "booked",
       "breakfast": "Continental breakfast",
       "parking": "Free",
-      "notes": "After Yellowstone"
+      "confirmationNumber": "49754611",
+      "notes": "After Yellowstone. Booked via Expedia (itinerary 73498711827810)."
     },
     {
       "date": "2026-08-05",
