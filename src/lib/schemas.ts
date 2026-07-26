@@ -17,6 +17,8 @@ export const nightSchema = z.object({
   status: z.enum(["planned", "known", "booked"]),
   purpose: z.string().optional(),
   notes: z.string().optional(),
+  breakfast: z.string().optional(),
+  parking: z.string().optional(),
 });
 
 export const reservationSchema = z.object({

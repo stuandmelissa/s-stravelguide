@@ -9,16 +9,96 @@
     "sweetTreatsEncouraged": true
   },
   "nights": [
-    {"date":"2026-07-27","city":"Fort Collins area","status":"planned","purpose":"Stage for early RMNP entry"},
-    {"date":"2026-07-28","city":"Moab","hotel":"Hoodoo Moab","status":"known"},
-    {"date":"2026-07-29","city":"Moab","hotel":"Hoodoo Moab","status":"known"},
-    {"date":"2026-07-30","city":"Bryce Canyon City","status":"planned"},
-    {"date":"2026-07-31","city":"Springdale","status":"planned"},
-    {"date":"2026-08-01","city":"Idaho Falls","status":"planned"},
-    {"date":"2026-08-02","city":"Jackson","status":"booked"},
-    {"date":"2026-08-03","city":"Jackson","status":"booked"},
-    {"date":"2026-08-04","city":"Billings","status":"planned"},
-    {"date":"2026-08-05","city":"Deadwood","status":"planned","notes":"Prefer low-smoke environment"}
+    {
+      "date": "2026-07-27",
+      "city": "Fort Collins",
+      "hotel": "Home2 Suites by Hilton Fort Collins",
+      "status": "booked",
+      "breakfast": "Free hot breakfast",
+      "parking": "Free",
+      "notes": "Base for RMNP the next morning"
+    },
+    {
+      "date": "2026-07-28",
+      "city": "Moab",
+      "hotel": "Hoodoo Moab, Curio Collection by Hilton",
+      "status": "booked",
+      "breakfast": "Hilton Gold food & beverage credit",
+      "parking": "$15/day",
+      "notes": "Excellent downtown Moab location"
+    },
+    {
+      "date": "2026-07-29",
+      "city": "Moab",
+      "hotel": "Hoodoo Moab, Curio Collection by Hilton",
+      "status": "booked",
+      "breakfast": "Hilton Gold food & beverage credit",
+      "parking": "$15/day",
+      "notes": "Full Arches day"
+    },
+    {
+      "date": "2026-07-30",
+      "city": "Bryce Canyon City",
+      "hotel": "Best Western Plus Ruby's Inn",
+      "status": "booked",
+      "breakfast": "Free breakfast buffet",
+      "parking": "Free",
+      "notes": "Walking distance or shuttle to Bryce"
+    },
+    {
+      "date": "2026-07-31",
+      "city": "Springdale",
+      "hotel": "The Red Cliffs Lodge Zion, a Tribute Portfolio Hotel",
+      "status": "booked",
+      "breakfast": "Not included",
+      "parking": "$20/day",
+      "notes": "Marriott property, steps from the Zion entrance"
+    },
+    {
+      "date": "2026-08-01",
+      "city": "Idaho Falls",
+      "hotel": "Holiday Inn Express Idaho Falls",
+      "status": "booked",
+      "breakfast": "Free hot breakfast",
+      "parking": "Free",
+      "notes": "Easy drive to the Tetons next morning"
+    },
+    {
+      "date": "2026-08-02",
+      "city": "Jackson",
+      "hotel": "Rusty Parrot Lodge & Spa",
+      "status": "booked",
+      "breakfast": "Continental breakfast",
+      "parking": "$25/day valet",
+      "notes": "Luxury stay, close to Town Square"
+    },
+    {
+      "date": "2026-08-03",
+      "city": "Jackson",
+      "hotel": "Rusty Parrot Lodge & Spa",
+      "status": "booked",
+      "breakfast": "Continental breakfast",
+      "parking": "$25/day valet",
+      "notes": "Rafting day"
+    },
+    {
+      "date": "2026-08-04",
+      "city": "Billings",
+      "hotel": "Big Horn Resort",
+      "status": "booked",
+      "breakfast": "Continental breakfast",
+      "parking": "Free",
+      "notes": "After Yellowstone"
+    },
+    {
+      "date": "2026-08-05",
+      "city": "Deadwood",
+      "hotel": "Tru by Hilton Deadwood",
+      "status": "booked",
+      "breakfast": "Free hot breakfast",
+      "parking": "$14.95/day",
+      "notes": "Great base for Mount Rushmore and Crazy Horse"
+    }
   ],
   "reservations": [
     {"title":"America the Beautiful Pass","type":"park-pass","status":"planned"},

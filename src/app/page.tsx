@@ -82,6 +82,17 @@ export default function HomePage() {
             <div className="space-y-1">
               <p className="text-lg font-medium">{night.hotel ?? "Hotel to be chosen"}</p>
               <p className="text-sm text-muted-foreground">{night.city}</p>
+              {(night.breakfast ?? night.parking) && (
+                <p className="text-sm text-muted-foreground">
+                  {[
+                    night.breakfast,
+                    night.parking &&
+                      (night.parking === "Free" ? "free parking" : `parking ${night.parking}`),
+                  ]
+                    .filter(Boolean)
+                    .join(" · ")}
+                </p>
+              )}
               {(night.purpose ?? night.notes) && (
                 <p className="text-sm text-muted-foreground">{night.purpose ?? night.notes}</p>
               )}

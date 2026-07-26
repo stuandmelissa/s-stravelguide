@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { BedDouble } from "lucide-react";
+import { BedDouble, CircleParking, Coffee } from "lucide-react";
 
 import { StatusBadge } from "@/components/status-badge";
 import { Card, CardContent } from "@/components/ui/card";
@@ -8,17 +8,17 @@ import { formatTripDate, tripOperations } from "@/lib/data";
 export const metadata: Metadata = { title: "Hotels" };
 
 export default function HotelsPage() {
-  const { nights, preferences } = tripOperations;
+  const { nights } = tripOperations;
+  const bookedCount = nights.filter((n) => n.status === "booked").length;
 
   return (
     <div className="space-y-5">
       <header className="space-y-1">
         <h1 className="text-3xl font-semibold tracking-tight">Hotels</h1>
         <p className="text-sm text-muted-foreground">
-          Hotels are part of the vacation. Target under $
-          {preferences.hotelBudgetTargetUsd}/night,{" "}
-          {preferences.preferredHotelPrograms.join(" or ").replace(" Honors", "").replace(" Bonvoy", "")}{" "}
-          preferred when value is comparable.
+          {bookedCount === nights.length
+            ? `All ${nights.length} nights are booked. Hotels are part of the vacation.`
+            : `${bookedCount} of ${nights.length} nights booked.`}
         </p>
       </header>
 
@@ -42,6 +42,22 @@ export default function HotelsPage() {
                     <p className="text-sm text-muted-foreground">{night.city}</p>
                   </div>
                 </div>
+                {(night.breakfast ?? night.parking) && (
+                  <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-muted-foreground">
+                    {night.breakfast && (
+                      <span className="flex items-center gap-1.5">
+                        <Coffee className="size-3.5 shrink-0 text-burnt" aria-hidden />
+                        {night.breakfast}
+                      </span>
+                    )}
+                    {night.parking && (
+                      <span className="flex items-center gap-1.5">
+                        <CircleParking className="size-3.5 shrink-0 text-slate-blue" aria-hidden />
+                        {night.parking === "Free" ? "Free parking" : night.parking}
+                      </span>
+                    )}
+                  </div>
+                )}
                 {(night.purpose ?? night.notes) && (
                   <p className="text-sm text-muted-foreground">
                     {night.purpose ?? night.notes}
