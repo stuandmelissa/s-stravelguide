@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BedDouble, ChevronRight, ClipboardCheck, ListChecks } from "lucide-react";
 
+import { OfflineStatus } from "@/components/offline-status";
 import { StatusBadge } from "@/components/status-badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { formatTripDate, tripDaysFile, tripOperations } from "@/lib/data";
@@ -85,8 +86,10 @@ export default function MorePage() {
         </Card>
       </section>
 
+      <OfflineStatus />
+
       <p className="px-1 text-center text-xs text-muted-foreground">
-        S&amp;S Travel Guide v0.1 · Adventure at your own pace.
+        S&amp;S Travel Guide v0.4 · Adventure at your own pace.
       </p>
     </div>
   );

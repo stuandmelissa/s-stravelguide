@@ -26,14 +26,32 @@ export interface ChecklistState {
   updatedAt: string;
 }
 
+export interface Memory {
+  id: string;
+  /** Trip day the memory belongs to (dayId, e.g. "day03"). */
+  dayId: string;
+  createdAt: string;
+  text: string;
+  favorite: boolean;
+  photo?: Blob;
+  photoType?: string;
+}
+
 export const db = new Dexie("ss-travel-guide") as Dexie & {
   stopStates: EntityTable<StopState, "id">;
   checklist: EntityTable<ChecklistState, "id">;
+  memories: EntityTable<Memory, "id">;
 };
 
 db.version(1).stores({
   stopStates: "id, dayId",
   checklist: "id, groupId",
+});
+
+db.version(2).stores({
+  stopStates: "id, dayId",
+  checklist: "id, groupId",
+  memories: "id, dayId, createdAt",
 });
 
 export function stopStateId(dayId: string, waypointId: string): string {
