@@ -52,14 +52,27 @@ export default function MorePage() {
         </h2>
         <Card>
           <CardContent className="p-5">
-            <ul className="space-y-3">
+            <ul className="space-y-4">
               {tripOperations.reservations.map((reservation) => (
-                <li
-                  key={reservation.title}
-                  className="flex items-center justify-between gap-2"
-                >
-                  <span className="text-sm font-medium">{reservation.title}</span>
-                  <StatusBadge status={reservation.status} />
+                <li key={reservation.title} className="space-y-1">
+                  <div className="flex items-start justify-between gap-2">
+                    <span className="text-sm font-medium">{reservation.title}</span>
+                    <StatusBadge status={reservation.status} />
+                  </div>
+                  {(reservation.date ?? reservation.location) && (
+                    <p className="text-xs text-muted-foreground">
+                      {[
+                        reservation.date && formatTripDate(reservation.date),
+                        reservation.time,
+                        reservation.location,
+                      ]
+                        .filter(Boolean)
+                        .join(" · ")}
+                    </p>
+                  )}
+                  {reservation.notes && (
+                    <p className="text-xs text-muted-foreground">{reservation.notes}</p>
+                  )}
                 </li>
               ))}
             </ul>

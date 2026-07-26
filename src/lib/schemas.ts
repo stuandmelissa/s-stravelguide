@@ -25,6 +25,10 @@ export const reservationSchema = z.object({
   title: z.string(),
   type: z.enum(["park-pass", "park-entry", "activity"]),
   status: z.enum(["planned", "verify", "confirmed", "not-required", "cancelled"]),
+  date: isoDate.optional(),
+  time: z.string().optional(),
+  location: z.string().optional(),
+  notes: z.string().optional(),
 });
 
 export const packingGroupSchema = z.object({

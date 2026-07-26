@@ -60,6 +60,7 @@ export default function HomePage() {
           <Button
             size="lg"
             className="w-full bg-cream font-semibold text-charcoal hover:bg-cream/90 dark:bg-charcoal dark:text-cream dark:hover:bg-charcoal/90"
+            nativeButton={false}
             render={<Link href="/today" />}
           >
             Open today&apos;s plan
@@ -120,6 +121,7 @@ export default function HomePage() {
           variant="outline"
           size="lg"
           className="h-auto flex-col gap-1.5 py-4"
+          nativeButton={false}
           render={<Link href="/hotels" />}
         >
           <BedDouble className="size-5 text-primary" aria-hidden />
@@ -129,6 +131,7 @@ export default function HomePage() {
           variant="outline"
           size="lg"
           className="h-auto flex-col gap-1.5 py-4"
+          nativeButton={false}
           render={<Link href="/packing" />}
         >
           <ListChecks className="size-5 text-primary" aria-hidden />

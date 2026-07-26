@@ -89,6 +89,7 @@ function StopRow({
               size="sm"
               variant="outline"
               className="gap-1.5"
+              nativeButton={false}
               render={
                 <a href={waypoint.appleMaps} target="_blank" rel="noopener noreferrer" />
               }

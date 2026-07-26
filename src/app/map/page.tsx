@@ -62,6 +62,7 @@ export default function MapPage() {
                       size="sm"
                       variant="ghost"
                       className="shrink-0 text-burnt"
+                      nativeButton={false}
                       render={
                         <a
                           href={waypoint.appleMaps}
