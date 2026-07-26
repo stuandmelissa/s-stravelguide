@@ -285,7 +285,9 @@ export function TripMap({
 
   return (
     <div className="relative h-[52vh] min-h-80 overflow-hidden rounded-3xl border border-border">
-      <div ref={containerRef} className="absolute inset-0" />
+      {/* Explicit size: MapLibre's stylesheet forces position:relative on the
+          container, which would collapse an absolutely-positioned div. */}
+      <div ref={containerRef} className="h-full w-full" />
       <Button
         variant="outline"
         size="icon-lg"
