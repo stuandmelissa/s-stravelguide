@@ -12,16 +12,6 @@
       "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=42.0342,-91.5977&travelmode=driving"
     },
     {
-      "id": "fort_collins",
-      "name": "Fort Collins, Colorado",
-      "type": "destination",
-      "latitude": 40.5853,
-      "longitude": -105.0844,
-      "confidence": "high",
-      "appleMaps": "https://maps.apple.com/?daddr=40.5853,-105.0844&dirflg=d",
-      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=40.5853,-105.0844&travelmode=driving"
-    },
-    {
       "id": "rmnp_beaver_meadows",
       "name": "Beaver Meadows Visitor Center",
       "type": "visitor_center",
@@ -70,16 +60,6 @@
       "confidence": "high",
       "appleMaps": "https://maps.apple.com/?daddr=40.2522,-105.8231&dirflg=d",
       "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=40.2522,-105.8231&travelmode=driving"
-    },
-    {
-      "id": "moab",
-      "name": "Moab, Utah",
-      "type": "destination",
-      "latitude": 38.5733,
-      "longitude": -109.5498,
-      "confidence": "high",
-      "appleMaps": "https://maps.apple.com/?daddr=38.5733,-109.5498&dirflg=d",
-      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=38.5733,-109.5498&travelmode=driving"
     },
     {
       "id": "arches_visitor_center",
@@ -182,16 +162,6 @@
       "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=37.6154,-112.1709&travelmode=driving"
     },
     {
-      "id": "bryce_city",
-      "name": "Bryce Canyon City",
-      "type": "destination",
-      "latitude": 37.6733,
-      "longitude": -112.1587,
-      "confidence": "high",
-      "appleMaps": "https://maps.apple.com/?daddr=37.6733,-112.1587&dirflg=d",
-      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=37.6733,-112.1587&travelmode=driving"
-    },
-    {
       "id": "zion_vc",
       "name": "Zion Canyon Visitor Center",
       "type": "visitor_center",
@@ -212,16 +182,6 @@
       "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=37.2133,-112.9404&travelmode=driving"
     },
     {
-      "id": "springdale",
-      "name": "Springdale, Utah",
-      "type": "destination",
-      "latitude": 37.1889,
-      "longitude": -112.9986,
-      "confidence": "high",
-      "appleMaps": "https://maps.apple.com/?daddr=37.1889,-112.9986&dirflg=d",
-      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=37.1889,-112.9986&travelmode=driving"
-    },
-    {
       "id": "cedar_breaks",
       "name": "Cedar Breaks National Monument",
       "type": "viewpoint",
@@ -230,16 +190,6 @@
       "confidence": "high",
       "appleMaps": "https://maps.apple.com/?daddr=37.635,-112.8453&dirflg=d",
       "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=37.635,-112.8453&travelmode=driving"
-    },
-    {
-      "id": "idaho_falls",
-      "name": "Idaho Falls, Idaho",
-      "type": "destination",
-      "latitude": 43.4927,
-      "longitude": -112.0408,
-      "confidence": "high",
-      "appleMaps": "https://maps.apple.com/?daddr=43.4927,-112.0408&dirflg=d",
-      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=43.4927,-112.0408&travelmode=driving"
     },
     {
       "id": "teton_oxbow",
@@ -372,16 +322,6 @@
       "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=45.1858,-109.2468&travelmode=driving"
     },
     {
-      "id": "billings",
-      "name": "Billings, Montana",
-      "type": "destination",
-      "latitude": 45.7833,
-      "longitude": -108.5007,
-      "confidence": "high",
-      "appleMaps": "https://maps.apple.com/?daddr=45.7833,-108.5007&dirflg=d",
-      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=45.7833,-108.5007&travelmode=driving"
-    },
-    {
       "id": "devils_tower_vc",
       "name": "Devils Tower Visitor Center",
       "type": "visitor_center",
@@ -390,16 +330,6 @@
       "confidence": "high",
       "appleMaps": "https://maps.apple.com/?daddr=44.5902,-104.7146&dirflg=d",
       "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=44.5902,-104.7146&travelmode=driving"
-    },
-    {
-      "id": "deadwood",
-      "name": "Deadwood, South Dakota",
-      "type": "destination",
-      "latitude": 44.3767,
-      "longitude": -103.7296,
-      "confidence": "high",
-      "appleMaps": "https://maps.apple.com/?daddr=44.3767,-103.7296&dirflg=d",
-      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=44.3767,-103.7296&travelmode=driving"
     },
     {
       "id": "mount_rushmore",
@@ -420,6 +350,96 @@
       "confidence": "high",
       "appleMaps": "https://maps.apple.com/?daddr=43.8366,-103.6232&dirflg=d",
       "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=43.8366,-103.6232&travelmode=driving"
+    },
+    {
+      "id": "home2_fort_collins",
+      "name": "Home2 Suites (Fort Collins)",
+      "type": "lodging",
+      "latitude": 40.5212,
+      "longitude": -105.0395,
+      "confidence": "exact",
+      "appleMaps": "https://maps.apple.com/?daddr=40.5212,-105.0395&dirflg=d",
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=40.5212,-105.0395&travelmode=driving"
+    },
+    {
+      "id": "hoodoo_moab",
+      "name": "Hoodoo Moab",
+      "type": "lodging",
+      "latitude": 38.5782,
+      "longitude": -109.5527,
+      "confidence": "exact",
+      "appleMaps": "https://maps.apple.com/?daddr=38.5782,-109.5527&dirflg=d",
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=38.5782,-109.5527&travelmode=driving"
+    },
+    {
+      "id": "rubys_inn",
+      "name": "Ruby's Inn (Bryce)",
+      "type": "lodging",
+      "latitude": 37.6736,
+      "longitude": -112.1575,
+      "confidence": "exact",
+      "appleMaps": "https://maps.apple.com/?daddr=37.6736,-112.1575&dirflg=d",
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=37.6736,-112.1575&travelmode=driving"
+    },
+    {
+      "id": "red_cliffs_lodge",
+      "name": "Red Cliffs Lodge Zion (Springdale)",
+      "type": "lodging",
+      "latitude": 37.1895,
+      "longitude": -112.9969,
+      "confidence": "exact",
+      "appleMaps": "https://maps.apple.com/?daddr=37.1895,-112.9969&dirflg=d",
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=37.1895,-112.9969&travelmode=driving"
+    },
+    {
+      "id": "hie_idaho_falls",
+      "name": "Holiday Inn Express (Idaho Falls)",
+      "type": "lodging",
+      "latitude": 43.4779,
+      "longitude": -111.9907,
+      "confidence": "exact",
+      "appleMaps": "https://maps.apple.com/?daddr=43.4779,-111.9907&dirflg=d",
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=43.4779,-111.9907&travelmode=driving"
+    },
+    {
+      "id": "rusty_parrot",
+      "name": "Rusty Parrot Lodge (Jackson)",
+      "type": "lodging",
+      "latitude": 43.4814,
+      "longitude": -110.7665,
+      "confidence": "exact",
+      "appleMaps": "https://maps.apple.com/?daddr=43.4814,-110.7665&dirflg=d",
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=43.4814,-110.7665&travelmode=driving"
+    },
+    {
+      "id": "big_horn_resort",
+      "name": "Big Horn Resort (Billings)",
+      "type": "lodging",
+      "latitude": 45.7344,
+      "longitude": -108.6041,
+      "confidence": "exact",
+      "appleMaps": "https://maps.apple.com/?daddr=45.7344,-108.6041&dirflg=d",
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=45.7344,-108.6041&travelmode=driving"
+    },
+    {
+      "id": "tru_deadwood",
+      "name": "Tru by Hilton (Deadwood)",
+      "type": "lodging",
+      "latitude": 44.381,
+      "longitude": -103.7236,
+      "confidence": "exact",
+      "appleMaps": "https://maps.apple.com/?daddr=44.381,-103.7236&dirflg=d",
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=44.381,-103.7236&travelmode=driving"
+    },
+    {
+      "id": "rafting_meeting",
+      "name": "Rafting Meeting Point (225 W Broadway)",
+      "type": "destination",
+      "latitude": 43.4797,
+      "longitude": -110.7646,
+      "confidence": "exact",
+      "appleMaps": "https://maps.apple.com/?daddr=43.4797,-110.7646&dirflg=d",
+      "googleMaps": "https://www.google.com/maps/dir/?api=1&destination=43.4797,-110.7646&travelmode=driving"
     }
   ]
 }

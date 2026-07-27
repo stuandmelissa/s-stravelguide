@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="S&amp;S Travel Guide" xmlns="http://www.topografix.com/GPX/1/1">
   <metadata><name>Bryce to Zion</name><desc>Planning waypoints and overview connection; not road-snapped navigation.</desc></metadata>
-  <wpt lat="37.6733" lon="-112.1587"><name>Bryce Canyon City</name><type>destination</type></wpt>
+  <wpt lat="37.6736" lon="-112.1575"><name>Ruby's Inn (Bryce)</name><type>lodging</type></wpt>
   <wpt lat="37.6154" lon="-112.1709"><name>Inspiration Point, Bryce Canyon</name><type>viewpoint</type></wpt>
   <wpt lat="37.6283" lon="-112.1666"><name>Sunset Point, Bryce Canyon</name><type>viewpoint</type></wpt>
   <wpt lat="37.2133" lon="-112.9404"><name>Canyon Overlook Trailhead</name><type>trailhead</type></wpt>
   <wpt lat="37.2" lon="-112.9868"><name>Zion Canyon Visitor Center</name><type>visitor_center</type></wpt>
-  <wpt lat="37.1889" lon="-112.9986"><name>Springdale, Utah</name><type>destination</type></wpt>
+  <wpt lat="37.1895" lon="-112.9969"><name>Red Cliffs Lodge Zion (Springdale)</name><type>lodging</type></wpt>
   <trk><name>Bryce to Zion</name><trkseg>
-      <trkpt lat="37.6733" lon="-112.1587"><name>Bryce Canyon City</name></trkpt>
+      <trkpt lat="37.6736" lon="-112.1575"><name>Ruby's Inn (Bryce)</name></trkpt>
       <trkpt lat="37.6154" lon="-112.1709"><name>Inspiration Point, Bryce Canyon</name></trkpt>
       <trkpt lat="37.6283" lon="-112.1666"><name>Sunset Point, Bryce Canyon</name></trkpt>
       <trkpt lat="37.2133" lon="-112.9404"><name>Canyon Overlook Trailhead</name></trkpt>
       <trkpt lat="37.2" lon="-112.9868"><name>Zion Canyon Visitor Center</name></trkpt>
-      <trkpt lat="37.1889" lon="-112.9986"><name>Springdale, Utah</name></trkpt>
+      <trkpt lat="37.1895" lon="-112.9969"><name>Red Cliffs Lodge Zion (Springdale)</name></trkpt>
   </trkseg></trk>
 </gpx>

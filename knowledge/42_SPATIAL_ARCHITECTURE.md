@@ -7,6 +7,7 @@ Never pretend a straight GPX segment is a drivable road. Display it as an overvi
 
 ## Location types
 - destination: overnight city or major anchor
+- lodging: the booked hotel for a night; day routes start and end here
 - park_entry: gate or primary access point
 - visitor_center: reliable orientation and services
 - viewpoint: short scenic stop

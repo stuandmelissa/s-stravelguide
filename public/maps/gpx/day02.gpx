@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="S&amp;S Travel Guide" xmlns="http://www.topografix.com/GPX/1/1">
   <metadata><name>RMNP Traverse to Grand Lake</name><desc>Planning waypoints and overview connection; not road-snapped navigation.</desc></metadata>
-  <wpt lat="40.5853" lon="-105.0844"><name>Fort Collins, Colorado</name><type>destination</type></wpt>
+  <wpt lat="40.5212" lon="-105.0395"><name>Home2 Suites (Fort Collins)</name><type>lodging</type></wpt>
   <wpt lat="40.3619" lon="-105.568"><name>Beaver Meadows Visitor Center</name><type>visitor_center</type></wpt>
   <wpt lat="40.3127" lon="-105.6457"><name>Bear Lake Trailhead</name><type>trailhead</type></wpt>
   <wpt lat="40.4411" lon="-105.7559"><name>Alpine Visitor Center</name><type>visitor_center</type></wpt>
   <wpt lat="40.4079" lon="-105.8495"><name>Holzwarth Historic Site / Kawuneeche Valley</name><type>wildlife_zone</type></wpt>
   <wpt lat="40.2522" lon="-105.8231"><name>Grand Lake, Colorado</name><type>destination</type></wpt>
-  <wpt lat="38.5733" lon="-109.5498"><name>Moab, Utah</name><type>destination</type></wpt>
+  <wpt lat="38.5782" lon="-109.5527"><name>Hoodoo Moab</name><type>lodging</type></wpt>
   <trk><name>RMNP Traverse to Grand Lake</name><trkseg>
-      <trkpt lat="40.5853" lon="-105.0844"><name>Fort Collins, Colorado</name></trkpt>
+      <trkpt lat="40.5212" lon="-105.0395"><name>Home2 Suites (Fort Collins)</name></trkpt>
       <trkpt lat="40.3619" lon="-105.568"><name>Beaver Meadows Visitor Center</name></trkpt>
       <trkpt lat="40.3127" lon="-105.6457"><name>Bear Lake Trailhead</name></trkpt>
       <trkpt lat="40.4411" lon="-105.7559"><name>Alpine Visitor Center</name></trkpt>
       <trkpt lat="40.4079" lon="-105.8495"><name>Holzwarth Historic Site / Kawuneeche Valley</name></trkpt>
       <trkpt lat="40.2522" lon="-105.8231"><name>Grand Lake, Colorado</name></trkpt>
-      <trkpt lat="38.5733" lon="-109.5498"><name>Moab, Utah</name></trkpt>
+      <trkpt lat="38.5782" lon="-109.5527"><name>Hoodoo Moab</name></trkpt>
   </trkseg></trk>
 </gpx>

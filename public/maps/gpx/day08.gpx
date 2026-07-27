@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="S&amp;S Travel Guide" xmlns="http://www.topografix.com/GPX/1/1">
   <metadata><name>Jackson Activities</name><desc>Planning waypoints and overview connection; not road-snapped navigation.</desc></metadata>
+  <wpt lat="43.4814" lon="-110.7665"><name>Rusty Parrot Lodge (Jackson)</name><type>lodging</type></wpt>
+  <wpt lat="43.4797" lon="-110.7646"><name>Rafting Meeting Point (225 W Broadway)</name><type>destination</type></wpt>
   <wpt lat="43.4799" lon="-110.7624"><name>Jackson, Wyoming</name><type>destination</type></wpt>
+  <wpt lat="43.4814" lon="-110.7665"><name>Rusty Parrot Lodge (Jackson)</name><type>lodging</type></wpt>
   <trk><name>Jackson Activities</name><trkseg>
+      <trkpt lat="43.4814" lon="-110.7665"><name>Rusty Parrot Lodge (Jackson)</name></trkpt>
+      <trkpt lat="43.4797" lon="-110.7646"><name>Rafting Meeting Point (225 W Broadway)</name></trkpt>
       <trkpt lat="43.4799" lon="-110.7624"><name>Jackson, Wyoming</name></trkpt>
+      <trkpt lat="43.4814" lon="-110.7665"><name>Rusty Parrot Lodge (Jackson)</name></trkpt>
   </trkseg></trk>
 </gpx>
