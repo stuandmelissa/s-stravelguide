@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "tripId": "ss-west-2026",
+  "preferences": {
+    "hotelBudgetTargetUsd": 200,
+    "preferredHotelPrograms": ["Hilton Honors", "Marriott Bonvoy"],
+    "fuelReminderFraction": 0.5,
+    "offlineFirst": true,
+    "sweetTreatsEncouraged": true
+  },
+  "nights": [
+    {
+      "date": "2026-07-27",
+      "city": "Fort Collins",
+      "hotel": "Home2 Suites by Hilton Fort Collins",
+      "status": "booked",
+      "breakfast": "Free hot breakfast",
+      "parking": "Free",
+      "confirmationNumber": "53741663",
+      "notes": "Base for RMNP the next morning"
+    },
+    {
+      "date": "2026-07-28",
+      "city": "Moab",
+      "hotel": "Hoodoo Moab, Curio Collection by Hilton",
+      "status": "booked",
+      "breakfast": "Hilton Gold food & beverage credit",
+      "parking": "$15/day",
+      "confirmationNumber": "3505762211",
+      "notes": "Excellent downtown Moab location. Booked as two separate one-night stays."
+    },
+    {
+      "date": "2026-07-29",
+      "city": "Moab",
+      "hotel": "Hoodoo Moab, Curio Collection by Hilton",
+      "status": "booked",
+      "breakfast": "Hilton Gold food & beverage credit",
+      "parking": "$15/day",
+      "confirmationNumber": "3505385821",
+      "notes": "Full Arches day. Separate booking from the first Moab night."
+    },
+    {
+      "date": "2026-07-30",
+      "city": "Bryce Canyon City",
+      "hotel": "Best Western Plus Ruby's Inn",
+      "status": "booked",
+      "breakfast": "Free breakfast buffet",
+      "parking": "Free",
+      "confirmationNumber": "1128149371542588",
+      "notes": "Walking distance or shuttle to Bryce. Booked via Expedia (itinerary 73498702631240)."
+    },
+    {
+      "date": "2026-07-31",
+      "city": "Springdale",
+      "hotel": "The Red Cliffs Lodge Zion, a Tribute Portfolio Hotel",
+      "status": "booked",
+      "breakfast": "Not included",
+      "parking": "$20/day",
+      "confirmationNumber": "95027662",
+      "notes": "Marriott property, steps from the Zion entrance"
+    },
+    {
+      "date": "2026-08-01",
+      "city": "Idaho Falls",
+      "hotel": "Holiday Inn Express Hotel & Suites Idaho Falls",
+      "status": "booked",
+      "breakfast": "Free hot breakfast",
+      "parking": "Free",
+      "confirmationNumber": "87635500",
+      "notes": "Easy drive to the Tetons next morning. Booked via Expedia (itinerary 73498709588203)."
+    },
+    {
+      "date": "2026-08-02",
+      "city": "Jackson",
+      "hotel": "Rusty Parrot Lodge & Spa",
+      "status": "booked",
+      "breakfast": "Continental breakfast",
+      "parking": "$25/day valet",
+      "confirmationNumber": "1000561460",
+      "notes": "Luxury stay, close to Town Square"
+    },
+    {
+      "date": "2026-08-03",
+      "city": "Jackson",
+      "hotel": "Rusty Parrot Lodge & Spa",
+      "status": "booked",
+      "breakfast": "Continental breakfast",
+      "parking": "$25/day valet",
+      "confirmationNumber": "1000561460",
+      "notes": "Rafting day"
+    },
+    {
+      "date": "2026-08-04",
+      "city": "Billings",
+      "hotel": "Big Horn Resort, an Ascend Collection Hotel",
+      "status": "booked",
+      "breakfast": "Continental breakfast",
+      "parking": "Free",
+      "confirmationNumber": "49754611",
+      "notes": "After Yellowstone. Booked via Expedia (itinerary 73498711827810)."
+    },
+    {
+      "date": "2026-08-05",
+      "city": "Deadwood",
+      "hotel": "Tru by Hilton Deadwood",
+      "status": "booked",
+      "breakfast": "Free hot breakfast",
+      "parking": "$14.95/day",
+      "confirmationNumber": "3511114099",
+      "notes": "Great base for Mount Rushmore and Crazy Horse"
+    }
+  ],
+  "reservations": [
+    {
+      "title": "America the Beautiful Pass",
+      "type": "park-pass",
+      "status": "confirmed",
+      "confirmationNumber": "0844207201-1",
+      "notes": "Resident Annual pass, holder Stuart Williams. Issued Jul 18, 2026, valid until Jul 31, 2027. Digital pass in Apple Wallet (Recreation.gov)."
+    },
+    {
+      "title": "Whitewater Rafting in Jackson Hole: Small Boat Excitement",
+      "type": "activity",
+      "status": "confirmed",
+      "date": "2026-08-03",
+      "time": "8:30 a.m.",
+      "location": "225 W Broadway, Jackson, WY",
+      "notes": "Reserved. Ticket available after final payment."
+    },
+    {"title":"Jackson aerial tram","type":"activity","status":"planned"},
+    {"title":"RMNP access requirements","type":"park-entry","status":"verify"},
+    {"title":"Arches access requirements","type":"park-entry","status":"verify"}
+  ],
+  "packingGroups": [
+    {"id":"car","title":"Car essentials","items":["Water","Electrolytes","Snacks","Paper towels","Wipes","Trash bags","First-aid kit","Phone cables","Battery bank"]},
+    {"id":"weather","title":"Weather and layers","items":["Light jacket","Rain shell","Hat","Sunglasses","Sunscreen","Lip balm","Warm layer"]},
+    {"id":"offline","title":"Offline readiness","items":["Download park maps","Download driving routes","Save hotel details","Save confirmations","Charge devices"]}
+  ]
+}

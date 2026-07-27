@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="S&amp;S Travel Guide" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata><name>Deadwood to Marion via Mount Rushmore</name><desc>Planning waypoints and overview connection; not road-snapped navigation.</desc></metadata>
+  <wpt lat="44.3767" lon="-103.7296"><name>Deadwood, South Dakota</name><type>destination</type></wpt>
+  <wpt lat="43.8791" lon="-103.4591"><name>Mount Rushmore National Memorial</name><type>viewpoint</type></wpt>
+  <wpt lat="43.8366" lon="-103.6232"><name>Crazy Horse Memorial</name><type>viewpoint</type></wpt>
+  <wpt lat="42.0342" lon="-91.5977"><name>Marion, Iowa</name><type>destination</type></wpt>
+  <trk><name>Deadwood to Marion via Mount Rushmore</name><trkseg>
+      <trkpt lat="44.3767" lon="-103.7296"><name>Deadwood, South Dakota</name></trkpt>
+      <trkpt lat="43.8791" lon="-103.4591"><name>Mount Rushmore National Memorial</name></trkpt>
+      <trkpt lat="43.8366" lon="-103.6232"><name>Crazy Horse Memorial</name></trkpt>
+      <trkpt lat="42.0342" lon="-91.5977"><name>Marion, Iowa</name></trkpt>
+  </trkseg></trk>
+</gpx>
