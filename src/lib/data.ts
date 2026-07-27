@@ -3,18 +3,21 @@ import parkIntelligenceJson from "../../data/park-intelligence.json";
 import parkSourcesJson from "../../data/park-sources.json";
 import waypointsJson from "../../data/waypoints.json";
 import mapManifestJson from "../../data/map-manifest.json";
+import routeLegsJson from "../../data/route-legs.json";
 import tripDaysJson from "../../data/trip-days.json";
 
 import {
   mapManifestSchema,
   parkIntelligenceSchema,
   parkSourcesSchema,
+  routeLegsFileSchema,
   tripDaysFileSchema,
   tripOperationsSchema,
   waypointsFileSchema,
   type MapDay,
   type Night,
   type Park,
+  type RouteLeg,
   type TripDay,
   type Waypoint,
 } from "./schemas";
@@ -30,6 +33,7 @@ export const parkIntelligence = parkIntelligenceSchema.parse(parkIntelligenceJso
 export const parkSources = parkSourcesSchema.parse(parkSourcesJson);
 export const waypointsFile = waypointsFileSchema.parse(waypointsJson);
 export const mapManifest = mapManifestSchema.parse(mapManifestJson);
+export const routeLegsFile = routeLegsFileSchema.parse(routeLegsJson);
 export const tripDaysFile = tripDaysFileSchema.parse(tripDaysJson);
 
 export const tripDays: TripDay[] = tripDaysFile.days;
@@ -90,6 +94,39 @@ export function getDayWaypoints(dayId: string): Waypoint[] {
 /** Where the travelers sleep at the end of the given date, if on the trip. */
 export function getNight(date: string): Night | undefined {
   return nightByDate.get(date);
+}
+
+const legsByDay = new Map(routeLegsFile.days.map((d) => [d.id, d.legs]));
+
+/** Road legs between consecutive stops of a day (free-flow estimates). */
+export function getDayLegs(dayId: string): RouteLeg[] {
+  return legsByDay.get(dayId) ?? [];
+}
+
+export function getLeg(dayId: string, fromId: string, toId: string): RouteLeg | undefined {
+  return getDayLegs(dayId).find(
+    (l) => l.fromWaypointId === fromId && l.toWaypointId === toId,
+  );
+}
+
+export interface DriveTotals {
+  miles: number;
+  minutes: number;
+}
+
+export function getDayDriveTotals(dayId: string): DriveTotals {
+  const legs = getDayLegs(dayId);
+  return {
+    miles: legs.reduce((s, l) => s + l.distanceMiles, 0),
+    minutes: legs.reduce((s, l) => s + l.driveMinutes, 0),
+  };
+}
+
+export function formatDrive(totals: DriveTotals): string {
+  const h = Math.floor(totals.minutes / 60);
+  const m = totals.minutes % 60;
+  const time = h > 0 ? (m > 0 ? `${h} h ${m} min` : `${h} h`) : `${m} min`;
+  return `${totals.miles} mi · ~${time}`;
 }
 
 export function getTripDay(dayId: string): TripDay | undefined {

@@ -1,13 +1,13 @@
 "use client";
 
 import { useLiveQuery } from "dexie-react-hooks";
-import { Check, MapPin, RotateCcw, X } from "lucide-react";
+import { Car, Check, MapPin, RotateCcw, X } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { db, setStopStatus, type StopStatus } from "@/lib/db";
-import { getDayWaypoints } from "@/lib/data";
-import type { Waypoint } from "@/lib/schemas";
+import { formatDrive, getDayLegs, getDayWaypoints } from "@/lib/data";
+import type { RouteLeg, Waypoint } from "@/lib/schemas";
 import { cn } from "@/lib/utils";
 
 const TYPE_LABELS: Record<Waypoint["type"], string> = {
@@ -28,12 +28,14 @@ function StopRow({
   status,
   isLast,
   isOvernight,
+  legToNext,
 }: {
   dayId: string;
   waypoint: Waypoint;
   status: StopStatus | undefined;
   isLast: boolean;
   isOvernight: boolean;
+  legToNext?: RouteLeg;
 }) {
   const done = status === "completed";
   const skipped = status === "skipped";
@@ -84,6 +86,13 @@ function StopRow({
           </div>
         </div>
 
+        {legToNext && (legToNext.distanceMiles > 0 || legToNext.driveMinutes > 5) && (
+          <p className="flex items-center gap-1.5 text-xs text-muted-foreground">
+            <Car className="size-3 shrink-0 text-burnt" aria-hidden />
+            {formatDrive({ miles: legToNext.distanceMiles, minutes: legToNext.driveMinutes })}{" "}
+            to next stop
+          </p>
+        )}
         {!done && (
           <div className="flex flex-wrap gap-2">
             <Button
@@ -129,12 +138,14 @@ function shortName(name: string): string {
 
 export function StopList({ dayId }: { dayId: string }) {
   const all = getDayWaypoints(dayId);
+  const legs = getDayLegs(dayId);
   // The first waypoint is the morning's starting point (hotel or home),
   // not a stop to complete.
-  const waypoints =
-    all.length > 1 && (all[0].type === "destination" || all[0].type === "lodging")
-      ? all.slice(1)
-      : all;
+  const dropOrigin =
+    all.length > 1 && (all[0].type === "destination" || all[0].type === "lodging");
+  const waypoints = dropOrigin ? all.slice(1) : all;
+  const offset = dropOrigin ? 1 : 0;
+  const originLeg = dropOrigin ? legs[0] : undefined;
   const states = useLiveQuery(
     () => db.stopStates.where("dayId").equals(dayId).toArray(),
     [dayId],
@@ -159,6 +170,13 @@ export function StopList({ dayId }: { dayId: string }) {
         {completed} of {waypoints.length} stops completed
         {completed === waypoints.length && " — beautifully done."}
       </p>
+      {originLeg && (
+        <p className="flex items-center gap-1.5 text-xs text-muted-foreground">
+          <Car className="size-3 shrink-0 text-burnt" aria-hidden />
+          From {all[0].name}:{" "}
+          {formatDrive({ miles: originLeg.distanceMiles, minutes: originLeg.driveMinutes })}
+        </p>
+      )}
       <ol className="list-none">
         {waypoints.map((waypoint, i) => (
           <StopRow
@@ -171,6 +189,7 @@ export function StopList({ dayId }: { dayId: string }) {
               i === waypoints.length - 1 &&
               (waypoint.type === "destination" || waypoint.type === "lodging")
             }
+            legToNext={i < waypoints.length - 1 ? legs[i + offset] : undefined}
           />
         ))}
       </ol>

@@ -4,11 +4,19 @@ import Link from "next/link";
 import { ArrowRight, BedDouble, Car, ListChecks, Moon } from "lucide-react";
 
 import { StatusBadge } from "@/components/status-badge";
+import { WeatherChip } from "@/components/weather-chip";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { useTripDate } from "@/hooks/use-trip-date";
-import { formatTripDate, getNight, tripDays, tripDaysFile } from "@/lib/data";
+import {
+  formatDrive,
+  formatTripDate,
+  getDayDriveTotals,
+  getNight,
+  tripDays,
+  tripDaysFile,
+} from "@/lib/data";
 
 export default function HomePage() {
   const tripDate = useTripDate();
@@ -41,6 +49,7 @@ export default function HomePage() {
         <h1 className="text-3xl font-semibold tracking-tight">
           {formatTripDate(currentDay.date)}
         </h1>
+        <WeatherChip date={currentDay.date} />
       </header>
 
       {/* HeroCard: what should we do today? */}
@@ -109,8 +118,17 @@ export default function HomePage() {
         <CardContent className="flex items-start gap-3 p-5">
           <Car className="mt-0.5 size-4 shrink-0 text-burnt" aria-hidden />
           <div className="space-y-1">
-            <p className="text-sm font-semibold">The drive</p>
+            <p className="text-sm font-semibold">
+              The drive
+              {getDayDriveTotals(currentDay.id).miles > 0 &&
+                ` · ${formatDrive(getDayDriveTotals(currentDay.id))}`}
+            </p>
             <p className="text-sm text-muted-foreground">{currentDay.driveSummary}</p>
+            {getDayDriveTotals(currentDay.id).miles > 0 && (
+              <p className="text-xs text-muted-foreground">
+                Estimate without traffic or stops.
+              </p>
+            )}
           </div>
         </CardContent>
       </Card>

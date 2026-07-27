@@ -26,6 +26,19 @@ export interface ChecklistState {
   updatedAt: string;
 }
 
+export interface WeatherDay {
+  /** `${date}` (one forecast per trip day, at its representative location). */
+  id: string;
+  date: string;
+  latitude: number;
+  longitude: number;
+  highF: number;
+  lowF: number;
+  precipPct: number;
+  weatherCode: number;
+  fetchedAt: string;
+}
+
 export interface Memory {
   id: string;
   /** Trip day the memory belongs to (dayId, e.g. "day03"). */
@@ -41,6 +54,7 @@ export const db = new Dexie("ss-travel-guide") as Dexie & {
   stopStates: EntityTable<StopState, "id">;
   checklist: EntityTable<ChecklistState, "id">;
   memories: EntityTable<Memory, "id">;
+  weather: EntityTable<WeatherDay, "id">;
 };
 
 db.version(1).stores({
@@ -52,6 +66,13 @@ db.version(2).stores({
   stopStates: "id, dayId",
   checklist: "id, groupId",
   memories: "id, dayId, createdAt",
+});
+
+db.version(3).stores({
+  stopStates: "id, dayId",
+  checklist: "id, groupId",
+  memories: "id, dayId, createdAt",
+  weather: "id, date",
 });
 
 export function stopStateId(dayId: string, waypointId: string): string {
