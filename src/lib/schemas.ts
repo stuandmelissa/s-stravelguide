@@ -151,6 +151,27 @@ export const mapManifestSchema = z.object({
   days: z.array(mapDaySchema).min(1),
 });
 
+// --- route-legs.json ---
+
+export const routeLegSchema = z.object({
+  fromWaypointId: z.string(),
+  toWaypointId: z.string(),
+  distanceMiles: z.number().int().min(0),
+  driveMinutes: z.number().int().min(0),
+});
+
+export const routeLegsFileSchema = z.object({
+  schemaVersion: z.literal(1),
+  generatedAt: isoDate,
+  source: z.string(),
+  days: z.array(
+    z.object({
+      id: z.string(),
+      legs: z.array(routeLegSchema),
+    }),
+  ),
+});
+
 // --- trip-days.json ---
 
 export const tripDaySchema = z.object({
@@ -183,6 +204,7 @@ export type ParkStop = z.infer<typeof parkStopSchema>;
 export type Park = z.infer<typeof parkSchema>;
 export type ParkIntelligence = z.infer<typeof parkIntelligenceSchema>;
 export type Waypoint = z.infer<typeof waypointSchema>;
+export type RouteLeg = z.infer<typeof routeLegSchema>;
 export type MapDay = z.infer<typeof mapDaySchema>;
 export type MapManifest = z.infer<typeof mapManifestSchema>;
 export type TripDay = z.infer<typeof tripDaySchema>;

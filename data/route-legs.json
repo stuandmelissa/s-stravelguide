@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-27",
+  "source": "OSRM driving profile; free-flow estimates without traffic",
+  "days": [
+    {
+      "id": "day01",
+      "legs": [
+        {
+          "fromWaypointId": "marion_home_area",
+          "toWaypointId": "home2_fort_collins",
+          "distanceMiles": 797,
+          "driveMinutes": 840
+        }
+      ]
+    },
+    {
+      "id": "day02",
+      "legs": [
+        {
+          "fromWaypointId": "home2_fort_collins",
+          "toWaypointId": "rmnp_beaver_meadows",
+          "distanceMiles": 58,
+          "driveMinutes": 94
+        },
+        {
+          "fromWaypointId": "rmnp_beaver_meadows",
+          "toWaypointId": "rmnp_bear_lake",
+          "distanceMiles": 13,
+          "driveMinutes": 38
+        },
+        {
+          "fromWaypointId": "rmnp_bear_lake",
+          "toWaypointId": "rmnp_alpine_vc",
+          "distanceMiles": 29,
+          "driveMinutes": 68
+        },
+        {
+          "fromWaypointId": "rmnp_alpine_vc",
+          "toWaypointId": "rmnp_holzwarth",
+          "distanceMiles": 10,
+          "driveMinutes": 22
+        },
+        {
+          "fromWaypointId": "rmnp_holzwarth",
+          "toWaypointId": "grand_lake",
+          "distanceMiles": 13,
+          "driveMinutes": 26
+        },
+        {
+          "fromWaypointId": "grand_lake",
+          "toWaypointId": "hoodoo_moab",
+          "distanceMiles": 321,
+          "driveMinutes": 387
+        }
+      ]
+    },
+    {
+      "id": "day03",
+      "legs": [
+        {
+          "fromWaypointId": "hoodoo_moab",
+          "toWaypointId": "arches_visitor_center",
+          "distanceMiles": 5,
+          "driveMinutes": 11
+        },
+        {
+          "fromWaypointId": "arches_visitor_center",
+          "toWaypointId": "arches_windows",
+          "distanceMiles": 12,
+          "driveMinutes": 24
+        },
+        {
+          "fromWaypointId": "arches_windows",
+          "toWaypointId": "arches_balanced_rock",
+          "distanceMiles": 3,
+          "driveMinutes": 9
+        },
+        {
+          "fromWaypointId": "arches_balanced_rock",
+          "toWaypointId": "arches_delicate_view",
+          "distanceMiles": 5,
+          "driveMinutes": 13
+        },
+        {
+          "fromWaypointId": "arches_delicate_view",
+          "toWaypointId": "hoodoo_moab",
+          "distanceMiles": 19,
+          "driveMinutes": 41
+        }
+      ]
+    },
+    {
+      "id": "day04",
+      "legs": [
+        {
+          "fromWaypointId": "hoodoo_moab",
+          "toWaypointId": "goblin_valley",
+          "distanceMiles": 100,
+          "driveMinutes": 119
+        },
+        {
+          "fromWaypointId": "goblin_valley",
+          "toWaypointId": "capitol_reef_vc",
+          "distanceMiles": 70,
+          "driveMinutes": 97
+        },
+        {
+          "fromWaypointId": "capitol_reef_vc",
+          "toWaypointId": "boulder_ut",
+          "distanceMiles": 45,
+          "driveMinutes": 66
+        },
+        {
+          "fromWaypointId": "boulder_ut",
+          "toWaypointId": "head_of_rocks",
+          "distanceMiles": 18,
+          "driveMinutes": 26
+        },
+        {
+          "fromWaypointId": "head_of_rocks",
+          "toWaypointId": "bryce_sunset",
+          "distanceMiles": 62,
+          "driveMinutes": 96
+        },
+        {
+          "fromWaypointId": "bryce_sunset",
+          "toWaypointId": "rubys_inn",
+          "distanceMiles": 4,
+          "driveMinutes": 10
+        }
+      ]
+    },
+    {
+      "id": "day05",
+      "legs": [
+        {
+          "fromWaypointId": "rubys_inn",
+          "toWaypointId": "bryce_inspiration",
+          "distanceMiles": 4,
+          "driveMinutes": 12
+        },
+        {
+          "fromWaypointId": "bryce_inspiration",
+          "toWaypointId": "bryce_sunset",
+          "distanceMiles": 2,
+          "driveMinutes": 6
+        },
+        {
+          "fromWaypointId": "bryce_sunset",
+          "toWaypointId": "canyon_overlook",
+          "distanceMiles": 80,
+          "driveMinutes": 118
+        },
+        {
+          "fromWaypointId": "canyon_overlook",
+          "toWaypointId": "zion_vc",
+          "distanceMiles": 6,
+          "driveMinutes": 17
+        },
+        {
+          "fromWaypointId": "zion_vc",
+          "toWaypointId": "red_cliffs_lodge",
+          "distanceMiles": 1,
+          "driveMinutes": 4
+        }
+      ]
+    },
+    {
+      "id": "day06",
+      "legs": [
+        {
+          "fromWaypointId": "red_cliffs_lodge",
+          "toWaypointId": "cedar_breaks",
+          "distanceMiles": 81,
+          "driveMinutes": 111
+        },
+        {
+          "fromWaypointId": "cedar_breaks",
+          "toWaypointId": "hie_idaho_falls",
+          "distanceMiles": 464,
+          "driveMinutes": 482
+        }
+      ]
+    },
+    {
+      "id": "day07",
+      "legs": [
+        {
+          "fromWaypointId": "hie_idaho_falls",
+          "toWaypointId": "teton_oxbow",
+          "distanceMiles": 122,
+          "driveMinutes": 170
+        },
+        {
+          "fromWaypointId": "teton_oxbow",
+          "toWaypointId": "teton_signal",
+          "distanceMiles": 4,
+          "driveMinutes": 9
+        },
+        {
+          "fromWaypointId": "teton_signal",
+          "toWaypointId": "teton_jenny",
+          "distanceMiles": 10,
+          "driveMinutes": 19
+        },
+        {
+          "fromWaypointId": "teton_jenny",
+          "toWaypointId": "teton_mormon_row",
+          "distanceMiles": 12,
+          "driveMinutes": 26
+        },
+        {
+          "fromWaypointId": "teton_mormon_row",
+          "toWaypointId": "rusty_parrot",
+          "distanceMiles": 16,
+          "driveMinutes": 26
+        }
+      ]
+    },
+    {
+      "id": "day08",
+      "legs": [
+        {
+          "fromWaypointId": "rusty_parrot",
+          "toWaypointId": "rafting_meeting",
+          "distanceMiles": 0,
+          "driveMinutes": 1
+        },
+        {
+          "fromWaypointId": "rafting_meeting",
+          "toWaypointId": "jackson",
+          "distanceMiles": 0,
+          "driveMinutes": 1
+        },
+        {
+          "fromWaypointId": "jackson",
+          "toWaypointId": "rusty_parrot",
+          "distanceMiles": 0,
+          "driveMinutes": 1
+        }
+      ]
+    },
+    {
+      "id": "day09",
+      "legs": [
+        {
+          "fromWaypointId": "rusty_parrot",
+          "toWaypointId": "yellowstone_old_faithful",
+          "distanceMiles": 98,
+          "driveMinutes": 166
+        },
+        {
+          "fromWaypointId": "yellowstone_old_faithful",
+          "toWaypointId": "yellowstone_grand_prismatic",
+          "distanceMiles": 7,
+          "driveMinutes": 15
+        },
+        {
+          "fromWaypointId": "yellowstone_grand_prismatic",
+          "toWaypointId": "yellowstone_canyon",
+          "distanceMiles": 39,
+          "driveMinutes": 72
+        },
+        {
+          "fromWaypointId": "yellowstone_canyon",
+          "toWaypointId": "yellowstone_lamar",
+          "distanceMiles": 36,
+          "driveMinutes": 77
+        },
+        {
+          "fromWaypointId": "yellowstone_lamar",
+          "toWaypointId": "yellowstone_mammoth",
+          "distanceMiles": 29,
+          "driveMinutes": 52
+        },
+        {
+          "fromWaypointId": "yellowstone_mammoth",
+          "toWaypointId": "beartooth_top",
+          "distanceMiles": 84,
+          "driveMinutes": 149
+        },
+        {
+          "fromWaypointId": "beartooth_top",
+          "toWaypointId": "rock_creek_vista",
+          "distanceMiles": 17,
+          "driveMinutes": 39
+        },
+        {
+          "fromWaypointId": "rock_creek_vista",
+          "toWaypointId": "red_lodge",
+          "distanceMiles": 13,
+          "driveMinutes": 17
+        },
+        {
+          "fromWaypointId": "red_lodge",
+          "toWaypointId": "big_horn_resort",
+          "distanceMiles": 54,
+          "driveMinutes": 74
+        }
+      ]
+    },
+    {
+      "id": "day10",
+      "legs": [
+        {
+          "fromWaypointId": "big_horn_resort",
+          "toWaypointId": "devils_tower_vc",
+          "distanceMiles": 303,
+          "driveMinutes": 314
+        },
+        {
+          "fromWaypointId": "devils_tower_vc",
+          "toWaypointId": "tru_deadwood",
+          "distanceMiles": 76,
+          "driveMinutes": 90
+        }
+      ]
+    },
+    {
+      "id": "day11",
+      "legs": [
+        {
+          "fromWaypointId": "tru_deadwood",
+          "toWaypointId": "mount_rushmore",
+          "distanceMiles": 49,
+          "driveMinutes": 79
+        },
+        {
+          "fromWaypointId": "mount_rushmore",
+          "toWaypointId": "crazy_horse",
+          "distanceMiles": 17,
+          "driveMinutes": 34
+        },
+        {
+          "fromWaypointId": "crazy_horse",
+          "toWaypointId": "marion_home_area",
+          "distanceMiles": 730,
+          "driveMinutes": 783
+        }
+      ]
+    }
+  ]
+}

@@ -5,11 +5,18 @@ import { Car, ChevronLeft, ChevronRight, Moon, Sparkles } from "lucide-react";
 
 import { ParkSection } from "@/components/park-section";
 import { StopList } from "@/components/stop-list";
+import { WeatherChip } from "@/components/weather-chip";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { useTripDate } from "@/hooks/use-trip-date";
-import { formatTripDate, getNight, tripDays } from "@/lib/data";
+import {
+  formatDrive,
+  formatTripDate,
+  getDayDriveTotals,
+  getNight,
+  tripDays,
+} from "@/lib/data";
 
 export default function TodayPage() {
   const tripDate = useTripDate();
@@ -36,6 +43,7 @@ export default function TodayPage() {
   const day = tripDays[dayIndex];
   const night = getNight(day.date);
   const isCurrent = tripDate?.currentDay.id === day.id;
+  const driveTotals = getDayDriveTotals(day.id);
 
   return (
     <div className="space-y-5">
@@ -81,13 +89,32 @@ export default function TodayPage() {
             </p>
           )}
           <p className="text-sm leading-relaxed text-muted-foreground">{day.summary}</p>
+          <WeatherChip date={day.date} />
           <Separator />
-          <p className="flex items-start gap-2 text-sm text-muted-foreground">
-            <Car className="mt-0.5 size-4 shrink-0 text-burnt" aria-hidden />
-            {day.driveSummary}
-          </p>
+          <div className="space-y-1">
+            <p className="flex items-start gap-2 text-sm text-muted-foreground">
+              <Car className="mt-0.5 size-4 shrink-0 text-burnt" aria-hidden />
+              {day.driveSummary}
+            </p>
+            {driveTotals.miles > 0 && (
+              <p className="pl-6 text-xs text-muted-foreground">
+                {formatDrive(driveTotals)} total driving (est., without traffic or stops)
+              </p>
+            )}
+          </div>
         </CardContent>
       </Card>
+
+      {!isCurrent && tripDate && (
+        <Button
+          variant="outline"
+          size="sm"
+          className="w-full"
+          onClick={() => setSelectedDayId(tripDate.currentDay.id)}
+        >
+          Back to today
+        </Button>
+      )}
 
       {day.parkIds.map((parkId) => (
         <ParkSection key={parkId} dayId={day.id} parkId={parkId} />

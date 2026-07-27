@@ -9,6 +9,7 @@ import { XMLParser } from "fast-xml-parser";
 import {
   mapManifest,
   parkIntelligence,
+  routeLegsFile,
   tripDaysFile,
   tripOperations,
   waypointsFile,
@@ -101,6 +102,21 @@ for (const park of parkIntelligence.parks) {
   check(
     day !== undefined && day.parkIds.includes(park.id),
     `park ${park.id} visitDate ${park.visitDate} has no matching trip day`,
+  );
+}
+
+// Route legs cover every consecutive waypoint pair of every day.
+for (const day of mapManifest.days) {
+  const legs = routeLegsFile.days.find((d) => d.id === day.id)?.legs;
+  if (!legs) {
+    errors.push(`no route legs for ${day.id}`);
+    continue;
+  }
+  const expected = day.waypointIds.slice(0, -1).map((id, i) => `${id}>${day.waypointIds[i + 1]}`);
+  const actual = legs.map((l) => `${l.fromWaypointId}>${l.toWaypointId}`);
+  check(
+    JSON.stringify(expected) === JSON.stringify(actual),
+    `route legs for ${day.id} do not match its waypoint sequence (regenerate with scripts/generate-route-legs.mjs)`,
   );
 }
 
