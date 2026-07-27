@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 
 const TYPE_LABELS: Record<Waypoint["type"], string> = {
   destination: "Destination",
+  lodging: "Tonight's hotel",
   park_entry: "Park entry",
   visitor_center: "Visitor center",
   viewpoint: "Viewpoint",
@@ -128,9 +129,12 @@ function shortName(name: string): string {
 
 export function StopList({ dayId }: { dayId: string }) {
   const all = getDayWaypoints(dayId);
-  // The first waypoint is the morning's starting point, not a stop to complete.
+  // The first waypoint is the morning's starting point (hotel or home),
+  // not a stop to complete.
   const waypoints =
-    all.length > 1 && all[0].type === "destination" ? all.slice(1) : all;
+    all.length > 1 && (all[0].type === "destination" || all[0].type === "lodging")
+      ? all.slice(1)
+      : all;
   const states = useLiveQuery(
     () => db.stopStates.where("dayId").equals(dayId).toArray(),
     [dayId],
@@ -163,7 +167,10 @@ export function StopList({ dayId }: { dayId: string }) {
             waypoint={waypoint}
             status={statusByWaypoint.get(waypoint.id)}
             isLast={i === waypoints.length - 1}
-            isOvernight={i === waypoints.length - 1 && waypoint.type === "destination"}
+            isOvernight={
+              i === waypoints.length - 1 &&
+              (waypoint.type === "destination" || waypoint.type === "lodging")
+            }
           />
         ))}
       </ol>

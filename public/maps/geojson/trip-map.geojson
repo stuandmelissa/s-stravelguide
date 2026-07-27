@@ -22,25 +22,6 @@
     },
     {
       "type": "Feature",
-      "id": "fort_collins",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.0844,
-          40.5853
-        ]
-      },
-      "properties": {
-        "id": "fort_collins",
-        "name": "Fort Collins, Colorado",
-        "type": "destination",
-        "confidence": "high",
-        "apple_maps": "https://maps.apple.com/?daddr=40.5853,-105.0844&dirflg=d",
-        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=40.5853,-105.0844&travelmode=driving"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "rmnp_beaver_meadows",
       "geometry": {
         "type": "Point",
@@ -132,25 +113,6 @@
         "confidence": "high",
         "apple_maps": "https://maps.apple.com/?daddr=40.2522,-105.8231&dirflg=d",
         "google_maps": "https://www.google.com/maps/dir/?api=1&destination=40.2522,-105.8231&travelmode=driving"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "moab",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -109.5498,
-          38.5733
-        ]
-      },
-      "properties": {
-        "id": "moab",
-        "name": "Moab, Utah",
-        "type": "destination",
-        "confidence": "high",
-        "apple_maps": "https://maps.apple.com/?daddr=38.5733,-109.5498&dirflg=d",
-        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=38.5733,-109.5498&travelmode=driving"
       }
     },
     {
@@ -345,25 +307,6 @@
     },
     {
       "type": "Feature",
-      "id": "bryce_city",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.1587,
-          37.6733
-        ]
-      },
-      "properties": {
-        "id": "bryce_city",
-        "name": "Bryce Canyon City",
-        "type": "destination",
-        "confidence": "high",
-        "apple_maps": "https://maps.apple.com/?daddr=37.6733,-112.1587&dirflg=d",
-        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.6733,-112.1587&travelmode=driving"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "zion_vc",
       "geometry": {
         "type": "Point",
@@ -402,25 +345,6 @@
     },
     {
       "type": "Feature",
-      "id": "springdale",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.9986,
-          37.1889
-        ]
-      },
-      "properties": {
-        "id": "springdale",
-        "name": "Springdale, Utah",
-        "type": "destination",
-        "confidence": "high",
-        "apple_maps": "https://maps.apple.com/?daddr=37.1889,-112.9986&dirflg=d",
-        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.1889,-112.9986&travelmode=driving"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "cedar_breaks",
       "geometry": {
         "type": "Point",
@@ -436,25 +360,6 @@
         "confidence": "high",
         "apple_maps": "https://maps.apple.com/?daddr=37.635,-112.8453&dirflg=d",
         "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.635,-112.8453&travelmode=driving"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "idaho_falls",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -112.0408,
-          43.4927
-        ]
-      },
-      "properties": {
-        "id": "idaho_falls",
-        "name": "Idaho Falls, Idaho",
-        "type": "destination",
-        "confidence": "high",
-        "apple_maps": "https://maps.apple.com/?daddr=43.4927,-112.0408&dirflg=d",
-        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=43.4927,-112.0408&travelmode=driving"
       }
     },
     {
@@ -706,25 +611,6 @@
     },
     {
       "type": "Feature",
-      "id": "billings",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -108.5007,
-          45.7833
-        ]
-      },
-      "properties": {
-        "id": "billings",
-        "name": "Billings, Montana",
-        "type": "destination",
-        "confidence": "high",
-        "apple_maps": "https://maps.apple.com/?daddr=45.7833,-108.5007&dirflg=d",
-        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=45.7833,-108.5007&travelmode=driving"
-      }
-    },
-    {
-      "type": "Feature",
       "id": "devils_tower_vc",
       "geometry": {
         "type": "Point",
@@ -740,399 +626,6 @@
         "confidence": "high",
         "apple_maps": "https://maps.apple.com/?daddr=44.5902,-104.7146&dirflg=d",
         "google_maps": "https://www.google.com/maps/dir/?api=1&destination=44.5902,-104.7146&travelmode=driving"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "deadwood",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -103.7296,
-          44.3767
-        ]
-      },
-      "properties": {
-        "id": "deadwood",
-        "name": "Deadwood, South Dakota",
-        "type": "destination",
-        "confidence": "high",
-        "apple_maps": "https://maps.apple.com/?daddr=44.3767,-103.7296&dirflg=d",
-        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=44.3767,-103.7296&travelmode=driving"
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "day01",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -91.5977,
-            42.0342
-          ],
-          [
-            -105.0844,
-            40.5853
-          ]
-        ]
-      },
-      "properties": {
-        "title": "Marion to Fort Collins",
-        "kind": "overview_connection",
-        "navigation_grade": false
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "day02",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -105.0844,
-            40.5853
-          ],
-          [
-            -105.568,
-            40.3619
-          ],
-          [
-            -105.6457,
-            40.3127
-          ],
-          [
-            -105.7559,
-            40.4411
-          ],
-          [
-            -105.8495,
-            40.4079
-          ],
-          [
-            -105.8231,
-            40.2522
-          ],
-          [
-            -109.5498,
-            38.5733
-          ]
-        ]
-      },
-      "properties": {
-        "title": "RMNP Traverse to Grand Lake",
-        "kind": "overview_connection",
-        "navigation_grade": false
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "day03",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -109.5498,
-            38.5733
-          ],
-          [
-            -109.62,
-            38.6166
-          ],
-          [
-            -109.5369,
-            38.687
-          ],
-          [
-            -109.5657,
-            38.7013
-          ],
-          [
-            -109.5047,
-            38.735
-          ],
-          [
-            -109.5498,
-            38.5733
-          ]
-        ]
-      },
-      "properties": {
-        "title": "Arches National Park",
-        "kind": "overview_connection",
-        "navigation_grade": false
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "day04",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -109.5498,
-            38.5733
-          ],
-          [
-            -110.7072,
-            38.5738
-          ],
-          [
-            -111.2615,
-            38.2916
-          ],
-          [
-            -111.423,
-            37.9221
-          ],
-          [
-            -111.4493,
-            37.7451
-          ],
-          [
-            -112.1666,
-            37.6283
-          ],
-          [
-            -112.1587,
-            37.6733
-          ]
-        ]
-      },
-      "properties": {
-        "title": "Moab to Bryce via Scenic Utah",
-        "kind": "overview_connection",
-        "navigation_grade": false
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "day05",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -112.1587,
-            37.6733
-          ],
-          [
-            -112.1709,
-            37.6154
-          ],
-          [
-            -112.1666,
-            37.6283
-          ],
-          [
-            -112.9404,
-            37.2133
-          ],
-          [
-            -112.9868,
-            37.2
-          ],
-          [
-            -112.9986,
-            37.1889
-          ]
-        ]
-      },
-      "properties": {
-        "title": "Bryce to Zion",
-        "kind": "overview_connection",
-        "navigation_grade": false
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "day06",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -112.9986,
-            37.1889
-          ],
-          [
-            -112.8453,
-            37.635
-          ],
-          [
-            -112.0408,
-            43.4927
-          ]
-        ]
-      },
-      "properties": {
-        "title": "Zion to Idaho Falls",
-        "kind": "overview_connection",
-        "navigation_grade": false
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "day07",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -112.0408,
-            43.4927
-          ],
-          [
-            -110.547,
-            43.865
-          ],
-          [
-            -110.6127,
-            43.8435
-          ],
-          [
-            -110.722,
-            43.752
-          ],
-          [
-            -110.6647,
-            43.6608
-          ],
-          [
-            -110.7624,
-            43.4799
-          ]
-        ]
-      },
-      "properties": {
-        "title": "Grand Teton to Jackson",
-        "kind": "overview_connection",
-        "navigation_grade": false
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "day08",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -110.7624,
-            43.4799
-          ]
-        ]
-      },
-      "properties": {
-        "title": "Jackson Activities",
-        "kind": "overview_connection",
-        "navigation_grade": false
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "day09",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -110.7624,
-            43.4799
-          ],
-          [
-            -110.8281,
-            44.4605
-          ],
-          [
-            -110.8382,
-            44.525
-          ],
-          [
-            -110.4796,
-            44.7214
-          ],
-          [
-            -110.2195,
-            44.8955
-          ],
-          [
-            -110.7018,
-            44.9766
-          ],
-          [
-            -109.4687,
-            44.9697
-          ],
-          [
-            -109.4077,
-            45.0503
-          ],
-          [
-            -109.2468,
-            45.1858
-          ],
-          [
-            -108.5007,
-            45.7833
-          ]
-        ]
-      },
-      "properties": {
-        "title": "Yellowstone and Beartooth",
-        "kind": "overview_connection",
-        "navigation_grade": false
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "day10",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -108.5007,
-            45.7833
-          ],
-          [
-            -104.7146,
-            44.5902
-          ],
-          [
-            -103.7296,
-            44.3767
-          ]
-        ]
-      },
-      "properties": {
-        "title": "Billings to Deadwood",
-        "kind": "overview_connection",
-        "navigation_grade": false
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "day11",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -103.7296,
-            44.3767
-          ],
-          [
-            -103.4591,
-            43.8791
-          ],
-          [
-            -103.6232,
-            43.8366
-          ],
-          [
-            -91.5977,
-            42.0342
-          ]
-        ]
-      },
-      "properties": {
-        "title": "Deadwood to Marion via Mount Rushmore",
-        "kind": "overview_connection",
-        "navigation_grade": false
       }
     },
     {
@@ -1171,6 +664,563 @@
         "confidence": "high",
         "apple_maps": "https://maps.apple.com/?daddr=43.8366,-103.6232&dirflg=d",
         "google_maps": "https://www.google.com/maps/dir/?api=1&destination=43.8366,-103.6232&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "home2_fort_collins",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0395,
+          40.5212
+        ]
+      },
+      "properties": {
+        "id": "home2_fort_collins",
+        "name": "Home2 Suites (Fort Collins)",
+        "type": "lodging",
+        "confidence": "exact",
+        "apple_maps": "https://maps.apple.com/?daddr=40.5212,-105.0395&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=40.5212,-105.0395&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hoodoo_moab",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.5527,
+          38.5782
+        ]
+      },
+      "properties": {
+        "id": "hoodoo_moab",
+        "name": "Hoodoo Moab",
+        "type": "lodging",
+        "confidence": "exact",
+        "apple_maps": "https://maps.apple.com/?daddr=38.5782,-109.5527&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=38.5782,-109.5527&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rubys_inn",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.1575,
+          37.6736
+        ]
+      },
+      "properties": {
+        "id": "rubys_inn",
+        "name": "Ruby's Inn (Bryce)",
+        "type": "lodging",
+        "confidence": "exact",
+        "apple_maps": "https://maps.apple.com/?daddr=37.6736,-112.1575&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.6736,-112.1575&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "red_cliffs_lodge",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.9969,
+          37.1895
+        ]
+      },
+      "properties": {
+        "id": "red_cliffs_lodge",
+        "name": "Red Cliffs Lodge Zion (Springdale)",
+        "type": "lodging",
+        "confidence": "exact",
+        "apple_maps": "https://maps.apple.com/?daddr=37.1895,-112.9969&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=37.1895,-112.9969&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "hie_idaho_falls",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9907,
+          43.4779
+        ]
+      },
+      "properties": {
+        "id": "hie_idaho_falls",
+        "name": "Holiday Inn Express (Idaho Falls)",
+        "type": "lodging",
+        "confidence": "exact",
+        "apple_maps": "https://maps.apple.com/?daddr=43.4779,-111.9907&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=43.4779,-111.9907&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rusty_parrot",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.7665,
+          43.4814
+        ]
+      },
+      "properties": {
+        "id": "rusty_parrot",
+        "name": "Rusty Parrot Lodge (Jackson)",
+        "type": "lodging",
+        "confidence": "exact",
+        "apple_maps": "https://maps.apple.com/?daddr=43.4814,-110.7665&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=43.4814,-110.7665&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "big_horn_resort",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.6041,
+          45.7344
+        ]
+      },
+      "properties": {
+        "id": "big_horn_resort",
+        "name": "Big Horn Resort (Billings)",
+        "type": "lodging",
+        "confidence": "exact",
+        "apple_maps": "https://maps.apple.com/?daddr=45.7344,-108.6041&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=45.7344,-108.6041&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "tru_deadwood",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.7236,
+          44.381
+        ]
+      },
+      "properties": {
+        "id": "tru_deadwood",
+        "name": "Tru by Hilton (Deadwood)",
+        "type": "lodging",
+        "confidence": "exact",
+        "apple_maps": "https://maps.apple.com/?daddr=44.381,-103.7236&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=44.381,-103.7236&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "rafting_meeting",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.7646,
+          43.4797
+        ]
+      },
+      "properties": {
+        "id": "rafting_meeting",
+        "name": "Rafting Meeting Point (225 W Broadway)",
+        "type": "destination",
+        "confidence": "exact",
+        "apple_maps": "https://maps.apple.com/?daddr=43.4797,-110.7646&dirflg=d",
+        "google_maps": "https://www.google.com/maps/dir/?api=1&destination=43.4797,-110.7646&travelmode=driving"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day01",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -91.5977,
+            42.0342
+          ],
+          [
+            -105.0395,
+            40.5212
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Marion to Fort Collins",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -105.0395,
+            40.5212
+          ],
+          [
+            -105.568,
+            40.3619
+          ],
+          [
+            -105.6457,
+            40.3127
+          ],
+          [
+            -105.7559,
+            40.4411
+          ],
+          [
+            -105.8495,
+            40.4079
+          ],
+          [
+            -105.8231,
+            40.2522
+          ],
+          [
+            -109.5527,
+            38.5782
+          ]
+        ]
+      },
+      "properties": {
+        "title": "RMNP Traverse to Grand Lake",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day03",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -109.5527,
+            38.5782
+          ],
+          [
+            -109.62,
+            38.6166
+          ],
+          [
+            -109.5369,
+            38.687
+          ],
+          [
+            -109.5657,
+            38.7013
+          ],
+          [
+            -109.5047,
+            38.735
+          ],
+          [
+            -109.5527,
+            38.5782
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Arches National Park",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -109.5527,
+            38.5782
+          ],
+          [
+            -110.7072,
+            38.5738
+          ],
+          [
+            -111.2615,
+            38.2916
+          ],
+          [
+            -111.423,
+            37.9221
+          ],
+          [
+            -111.4493,
+            37.7451
+          ],
+          [
+            -112.1666,
+            37.6283
+          ],
+          [
+            -112.1575,
+            37.6736
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Moab to Bryce via Scenic Utah",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day05",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.1575,
+            37.6736
+          ],
+          [
+            -112.1709,
+            37.6154
+          ],
+          [
+            -112.1666,
+            37.6283
+          ],
+          [
+            -112.9404,
+            37.2133
+          ],
+          [
+            -112.9868,
+            37.2
+          ],
+          [
+            -112.9969,
+            37.1895
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Bryce to Zion",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day06",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -112.9969,
+            37.1895
+          ],
+          [
+            -112.8453,
+            37.635
+          ],
+          [
+            -111.9907,
+            43.4779
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Zion to Idaho Falls",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day07",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -111.9907,
+            43.4779
+          ],
+          [
+            -110.547,
+            43.865
+          ],
+          [
+            -110.6127,
+            43.8435
+          ],
+          [
+            -110.722,
+            43.752
+          ],
+          [
+            -110.6647,
+            43.6608
+          ],
+          [
+            -110.7665,
+            43.4814
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Grand Teton to Jackson",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day08",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -110.7665,
+            43.4814
+          ],
+          [
+            -110.7646,
+            43.4797
+          ],
+          [
+            -110.7624,
+            43.4799
+          ],
+          [
+            -110.7665,
+            43.4814
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Jackson Activities",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day09",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -110.7665,
+            43.4814
+          ],
+          [
+            -110.8281,
+            44.4605
+          ],
+          [
+            -110.8382,
+            44.525
+          ],
+          [
+            -110.4796,
+            44.7214
+          ],
+          [
+            -110.2195,
+            44.8955
+          ],
+          [
+            -110.7018,
+            44.9766
+          ],
+          [
+            -109.4687,
+            44.9697
+          ],
+          [
+            -109.4077,
+            45.0503
+          ],
+          [
+            -109.2468,
+            45.1858
+          ],
+          [
+            -108.6041,
+            45.7344
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Yellowstone and Beartooth",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day10",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -108.6041,
+            45.7344
+          ],
+          [
+            -104.7146,
+            44.5902
+          ],
+          [
+            -103.7236,
+            44.381
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Billings to Deadwood",
+        "kind": "overview_connection",
+        "navigation_grade": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "day11",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -103.7236,
+            44.381
+          ],
+          [
+            -103.4591,
+            43.8791
+          ],
+          [
+            -103.6232,
+            43.8366
+          ],
+          [
+            -91.5977,
+            42.0342
+          ]
+        ]
+      },
+      "properties": {
+        "title": "Deadwood to Marion via Mount Rushmore",
+        "kind": "overview_connection",
+        "navigation_grade": false
       }
     }
   ]

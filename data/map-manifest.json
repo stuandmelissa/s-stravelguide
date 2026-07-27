@@ -7,7 +7,7 @@
       "title": "Marion to Fort Collins",
       "waypointIds": [
         "marion_home_area",
-        "fort_collins"
+        "home2_fort_collins"
       ],
       "gpx": "maps/gpx/day01.gpx",
       "kml": "maps/kml/day01.kml"
@@ -16,13 +16,13 @@
       "id": "day02",
       "title": "RMNP Traverse to Grand Lake",
       "waypointIds": [
-        "fort_collins",
+        "home2_fort_collins",
         "rmnp_beaver_meadows",
         "rmnp_bear_lake",
         "rmnp_alpine_vc",
         "rmnp_holzwarth",
         "grand_lake",
-        "moab"
+        "hoodoo_moab"
       ],
       "gpx": "maps/gpx/day02.gpx",
       "kml": "maps/kml/day02.kml"
@@ -31,12 +31,12 @@
       "id": "day03",
       "title": "Arches National Park",
       "waypointIds": [
-        "moab",
+        "hoodoo_moab",
         "arches_visitor_center",
         "arches_windows",
         "arches_balanced_rock",
         "arches_delicate_view",
-        "moab"
+        "hoodoo_moab"
       ],
       "gpx": "maps/gpx/day03.gpx",
       "kml": "maps/kml/day03.kml"
@@ -45,13 +45,13 @@
       "id": "day04",
       "title": "Moab to Bryce via Scenic Utah",
       "waypointIds": [
-        "moab",
+        "hoodoo_moab",
         "goblin_valley",
         "capitol_reef_vc",
         "boulder_ut",
         "head_of_rocks",
         "bryce_sunset",
-        "bryce_city"
+        "rubys_inn"
       ],
       "gpx": "maps/gpx/day04.gpx",
       "kml": "maps/kml/day04.kml"
@@ -60,12 +60,12 @@
       "id": "day05",
       "title": "Bryce to Zion",
       "waypointIds": [
-        "bryce_city",
+        "rubys_inn",
         "bryce_inspiration",
         "bryce_sunset",
         "canyon_overlook",
         "zion_vc",
-        "springdale"
+        "red_cliffs_lodge"
       ],
       "gpx": "maps/gpx/day05.gpx",
       "kml": "maps/kml/day05.kml"
@@ -74,9 +74,9 @@
       "id": "day06",
       "title": "Zion to Idaho Falls",
       "waypointIds": [
-        "springdale",
+        "red_cliffs_lodge",
         "cedar_breaks",
-        "idaho_falls"
+        "hie_idaho_falls"
       ],
       "gpx": "maps/gpx/day06.gpx",
       "kml": "maps/kml/day06.kml"
@@ -85,12 +85,12 @@
       "id": "day07",
       "title": "Grand Teton to Jackson",
       "waypointIds": [
-        "idaho_falls",
+        "hie_idaho_falls",
         "teton_oxbow",
         "teton_signal",
         "teton_jenny",
         "teton_mormon_row",
-        "jackson"
+        "rusty_parrot"
       ],
       "gpx": "maps/gpx/day07.gpx",
       "kml": "maps/kml/day07.kml"
@@ -99,7 +99,10 @@
       "id": "day08",
       "title": "Jackson Activities",
       "waypointIds": [
-        "jackson"
+        "rusty_parrot",
+        "rafting_meeting",
+        "jackson",
+        "rusty_parrot"
       ],
       "gpx": "maps/gpx/day08.gpx",
       "kml": "maps/kml/day08.kml"
@@ -108,7 +111,7 @@
       "id": "day09",
       "title": "Yellowstone and Beartooth",
       "waypointIds": [
-        "jackson",
+        "rusty_parrot",
         "yellowstone_old_faithful",
         "yellowstone_grand_prismatic",
         "yellowstone_canyon",
@@ -117,7 +120,7 @@
         "beartooth_top",
         "rock_creek_vista",
         "red_lodge",
-        "billings"
+        "big_horn_resort"
       ],
       "gpx": "maps/gpx/day09.gpx",
       "kml": "maps/kml/day09.kml"
@@ -126,9 +129,9 @@
       "id": "day10",
       "title": "Billings to Deadwood",
       "waypointIds": [
-        "billings",
+        "big_horn_resort",
         "devils_tower_vc",
-        "deadwood"
+        "tru_deadwood"
       ],
       "gpx": "maps/gpx/day10.gpx",
       "kml": "maps/kml/day10.kml"
@@ -137,7 +140,7 @@
       "id": "day11",
       "title": "Deadwood to Marion via Mount Rushmore",
       "waypointIds": [
-        "deadwood",
+        "tru_deadwood",
         "mount_rushmore",
         "crazy_horse",
         "marion_home_area"

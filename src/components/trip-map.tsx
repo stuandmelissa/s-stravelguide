@@ -31,6 +31,7 @@ const MAP_STYLE = "https://tiles.openfreemap.org/styles/liberty";
 
 const TYPE_COLORS: Record<Waypoint["type"], string> = {
   destination: "#2f5d42",
+  lodging: "#7a5236",
   park_entry: "#2f5d42",
   visitor_center: "#5b7c99",
   viewpoint: "#c05b2e",
@@ -42,6 +43,7 @@ const TYPE_COLORS: Record<Waypoint["type"], string> = {
 
 const TYPE_LABELS: Record<Waypoint["type"], string> = {
   destination: "Destination",
+  lodging: "Hotel",
   park_entry: "Park entry",
   visitor_center: "Visitor center",
   viewpoint: "Viewpoint",
@@ -76,7 +78,7 @@ function buildStopsGeoJson(
         name: w.name,
         type: w.type,
         color: TYPE_COLORS[w.type],
-        radius: w.type === "destination" ? 8 : 6,
+        radius: w.type === "destination" || w.type === "lodging" ? 8 : 6,
         dimmed: inDay ? 0 : 1,
         completed: status === "completed" ? 1 : 0,
       },
@@ -206,7 +208,7 @@ export function TripMap({
         id: "stop-labels",
         type: "symbol",
         source: "stops",
-        filter: ["==", ["get", "type"], "destination"],
+        filter: ["in", ["get", "type"], ["literal", ["destination", "lodging"]]],
         layout: {
           "text-field": ["get", "name"],
           "text-size": 11,

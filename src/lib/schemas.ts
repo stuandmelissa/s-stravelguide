@@ -114,6 +114,7 @@ export const waypointSchema = z.object({
   name: z.string(),
   type: z.enum([
     "destination",
+    "lodging",
     "park_entry",
     "visitor_center",
     "viewpoint",
